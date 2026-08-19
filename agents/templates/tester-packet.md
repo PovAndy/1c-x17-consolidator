@@ -1,0 +1,23 @@
+# Tester Packet
+
+- `task_id`: EPF-###
+- `role`: qa
+- `changed_paths`:
+  - `/abs/path/file`
+- `expected_behavior_delta`:
+  - what should now work
+- `risk_focus`:
+  - likely regression 1
+  - likely regression 2
+- `required_checks`:
+  - static check
+  - runtime check
+- `verdict_mode`:
+  - `static_only` or `runtime_checked`
+- `evidence_required`:
+  - log paths
+  - report paths
+  - compile/smoke result
+- `hard_stop_conditions`:
+  - missing runtime check for BSL/query/string change
+  - contradictory evidence

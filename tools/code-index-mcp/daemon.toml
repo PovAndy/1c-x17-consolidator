@@ -1,0 +1,22 @@
+[daemon]
+ http_port = 44369
+ max_concurrent_initial = 1
+
+[[paths]]
+alias = "epf1129"
+path = "{PROJECT_ROOT}/src"
+debounce_ms = 500
+batch_ms = 1000
+
+[[paths]]
+alias = "docs"
+path = "{PROJECT_ROOT}/docs"
+debounce_ms = 1000
+batch_ms = 1500
+
+[[paths]]
+alias = "scripts"
+path = "{PROJECT_ROOT}/scripts"
+language = "python"
+debounce_ms = 1000
+batch_ms = 1500

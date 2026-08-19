@@ -1,0 +1,43 @@
+# Project Structure Index
+
+Generated: 2026-05-29T03:58:40Z
+
+- src/.code-index/index.db
+- src/.code-index/index.db-shm
+- src/.code-index/index.db-wal
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Ext/Help.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Ext/Help/ru.html
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Ext/ObjectModule.bsl
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ВыборИзЗапроса.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ВыборИзЗапроса/Ext/Form.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ВыборИзЗапроса/Ext/Form/Module.bsl
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ВыборУзлаОбмена.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ВыборУзлаОбмена/Ext/Form.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ВыборУзлаОбмена/Ext/Form/Module.bsl
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/КлючиАналитикиСправка.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/КлючиАналитикиСправка/Ext/Form.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/КлючиАналитикиСправка/Ext/Form/Module.bsl
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/НастройкиКонсолиЗапросов.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/НастройкиКонсолиЗапросов/Ext/Form.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/НастройкиКонсолиЗапросов/Ext/Form/Module.bsl
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ОПрограмме.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ОПрограмме/Ext/Form.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ОПрограмме/Ext/Form/Module.bsl
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма/Ext/Form.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма/Ext/Form/Items/ДеревоМетаданных/RowsPicture.png
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма/Ext/Form/Items/КартинкаИзмерение/Picture.png
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма/Ext/Form/Items/КартинкаРесурс/Picture.png
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма/Ext/Form/Module.bsl
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма/Ext/Help.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма/Ext/Help/ru.html
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ФормаВыбораТипа.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ФормаВыбораТипа/Ext/Form.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/ФормаВыбораТипа/Ext/Form/Module.bsl
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Templates/КлючиАналитикиКартинка.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Templates/КлючиАналитикиКартинка/Ext/Template.bin
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Templates/Макет.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Templates/Макет/Ext/Template.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Templates/Описание.xml
+- src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Templates/Описание/Ext/Template.txt

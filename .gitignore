@@ -1,0 +1,55 @@
+# Local secrets
+.env
+.env.local
+.env.openrouter.local
+
+# Python caches and local virtualenv churn
+__pycache__/
+*.py[cod]
+.venv-*/
+.venv-gemini-bridge/
+.code-index/
+docs/.code-index/
+
+# Local generated diagnostics
+logs/sql/*.csv
+logs/sql/*.md
+logs/code-index-daemon.log
+scripts/tmp/
+.code-index/daemon-launch.pid
+.code-index/backup-*/
+
+# Workspace Graph V2: локальные автоматически обновляемые артефакты
+temp/workspace_graph_v2.json
+temp/workspace_graph_v2.state.json
+temp/workspace_graph_v2.lock
+temp/workspace_graph_v2.dirty
+temp/workspace_graph_v2_watcher.lock
+temp/workspace_graph_v2_watcher.status.json
+temp/workspace_graph_v2_watcher.log*
+temp/rag_lifecycle_active.json
+temp/rag_lifecycle_active.lock
+temp/knowledge_base.*.json
+temp/audit_report.html
+temp/audit_rag_state.json
+temp/donor_facts_195_2.json
+temp/gpt2_coder_live_probe.json
+temp/gpt2_coder_live_probe.json.tmp
+temp/gpt2_coder_live_probe.log
+
+# OMVL: локальные checkpoint, предохранители и pending native fallback
+runtime/omvl-resilience/
+
+# Дополнительные секреты (рабочая среда)
+.env.gemini.local
+.env.openrouter.local
+.env.local
+.env.*.local
+*:Zone.Identifier
+
+# Временные и служебные
+temp/
+tmp/
+logs/
+*.log
+*.pid

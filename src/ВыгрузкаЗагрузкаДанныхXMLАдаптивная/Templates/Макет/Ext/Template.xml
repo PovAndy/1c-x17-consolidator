@@ -1,0 +1,4036 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru1</defaultLanguage>
+		<languageInfo>
+			<id>ru1</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+		<languageInfo>
+			<id>en</id>
+			<code>Английский</code>
+			<description>Английский</description>
+		</languageInfo>
+		<languageInfo>
+			<id>bg</id>
+			<code>Bulgarian</code>
+			<description>Bulgarian</description>
+		</languageInfo>
+		<languageInfo>
+			<id>es_CL</id>
+			<code>Chilean</code>
+			<description>Chilean</description>
+		</languageInfo>
+		<languageInfo>
+			<id>es_CO</id>
+			<code>Colombian</code>
+			<description>Colombian</description>
+		</languageInfo>
+		<languageInfo>
+			<id>de</id>
+			<code>German</code>
+			<description>German</description>
+		</languageInfo>
+		<languageInfo>
+			<id>it</id>
+			<code>Italian</code>
+			<description>Italian</description>
+		</languageInfo>
+		<languageInfo>
+			<id>pl</id>
+			<code>Polish</code>
+			<description>Polish</description>
+		</languageInfo>
+		<languageInfo>
+			<id>ro</id>
+			<code>Romanian</code>
+			<description>Romanian</description>
+		</languageInfo>
+		<languageInfo>
+			<id>ru</id>
+			<code>Russian</code>
+			<description>Russian</description>
+		</languageInfo>
+		<languageInfo>
+			<id>es_ES</id>
+			<code>Spanish</code>
+			<description>Spanish</description>
+		</languageInfo>
+		<languageInfo>
+			<id>tr</id>
+			<code>Turkish</code>
+			<description>Turkish</description>
+		</languageInfo>
+		<languageInfo>
+			<id>vi</id>
+			<code>Vietnamese</code>
+			<description>Vietnamese</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>4</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Root</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Корень</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>1</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Common</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Subsystem</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Подсистемы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>CommonModule</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие модули</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОбщиеМодули</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>SessionParameter</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Параметры сеанса</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПараметрыСеанса</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>5</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Role</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Роли</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>CommonAttribute</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие реквизиты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОбщиеРеквизиты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>ExchangePlan</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Планы обмена</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПланыОбмена</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>FilterCriterion</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Критерии отбора</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>КритерииОтбора</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>EventSubscription</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Подписки на события</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПодпискиНаСобытия</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>ScheduledJob</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Регламентные задания</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>РегламентныеЗадания</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Bot</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Боты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>FunctionalOption</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Функциональные опции</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФункциональныеОпции</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>FunctionalOptionsParameter</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Параметры функциональных опций</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПараметрыФункциональныхОпций</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>DefinedType</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Определяемые типы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОпределяемыеТипы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>SettingsStorage</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Хранилища настроек</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ХранилищаНастроек</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>CommonCommand</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие команды</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОбщиеКоманды</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>CommandGroup</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Группы команд</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ГруппыКоманд</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>CommonForm</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие формы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОбщиеФормы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>CommonTemplate</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие макеты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОбщиеМакеты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>CommonPicture</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие картинки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОбщиеКартинки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>XDTOPackage</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>XDTO-пакеты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>XDTOПакеты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>WebService</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Web-сервисы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>WebСервисы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>HTTPService</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>HTTP-сервисы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>HTTPСервисы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>WSReference</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>WSReference</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>WS-ссылки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>WSСсылки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>IntegrationService</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Сервисы интеграции</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СервисыИнтеграции</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>StyleItem</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Элементы стиля</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЭлементыСтиля</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Style</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Стили</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Language</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Языки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Constant</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Константы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Catalog</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Справочники</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Document</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Документы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>DocumentJournal</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Журналы документов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЖурналыДокументов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>33</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Enum</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Перечисления</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Report</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Отчеты</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>DataProcessor</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Обработки</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>ChartOfCharacteristicTypes</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Планы видов характеристик</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПланыВидовХарактеристик</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>ChartOfAccounts</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Планы счетов</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПланыСчетов</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>38</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>ChartOfCalculationTypes</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Планы видов расчета</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПланыВидовРасчета</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>InformationRegister</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Регистры сведений</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>РегистрыСведений</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>AccumulationRegister</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Регистры накопления</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>РегистрыНакопления</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>3</i>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>41</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>AccountingRegister</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Регистры бухгалтерии</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>РегистрыБухгалтерии</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>CalculationRegister</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Регистры расчета</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>РегистрыРасчета</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>43</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>BusinessProcess</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Бизнес-процессы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>БизнесПроцессы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>44</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Task</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Задачи</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>45</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>ExternalDataSource</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Внешние источники данных</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВнешниеИсточникиДанных</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>4</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>46</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>DocumentNumerator</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>DocumentNumerator</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Нумераторы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Нумераторы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>47</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Sequence</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru1</v8:lang>
+							<v8:content>Последовательности</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>48</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>49</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>50</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Булево</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>51</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>52</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>УникальныйИдентификатор</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>53</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ТочкиМаршрутаБизнесПроцесса</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>54</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СтандартныйПериод</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>55</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>МоментВремени</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>56</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Граница</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>57</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ХранилищеЗначения</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>58</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЛюбаяСсылка</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>59</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>DefinedTypes</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОпределяемыеТипы</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общие</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>152</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>0</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>1</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>153</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>1</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>1</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>2</zOrder>
+		<pictureIndex>2</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>154</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>2</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>2</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>3</zOrder>
+		<pictureIndex>3</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>155</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>3</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>3</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>4</zOrder>
+		<pictureIndex>4</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>156</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>4</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>4</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>5</zOrder>
+		<pictureIndex>5</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>157</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>5</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>5</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>6</zOrder>
+		<pictureIndex>6</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>158</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>6</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>6</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>7</zOrder>
+		<pictureIndex>7</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>159</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>7</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>7</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>8</zOrder>
+		<pictureIndex>8</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>160</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>8</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>8</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>9</zOrder>
+		<pictureIndex>9</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>161</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>9</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>9</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>10</zOrder>
+		<pictureIndex>10</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>162</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>10</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>10</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>11</zOrder>
+		<pictureIndex>11</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>163</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>11</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>11</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>12</zOrder>
+		<pictureIndex>12</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>164</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>12</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>12</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>13</zOrder>
+		<pictureIndex>13</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>165</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>13</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>13</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>14</zOrder>
+		<pictureIndex>14</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>166</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>14</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>14</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>15</zOrder>
+		<pictureIndex>15</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>167</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>15</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>15</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>16</zOrder>
+		<pictureIndex>16</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>168</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>16</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>16</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>17</zOrder>
+		<pictureIndex>17</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>169</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>17</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>17</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>18</zOrder>
+		<pictureIndex>18</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>170</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>18</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>18</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>19</zOrder>
+		<pictureIndex>19</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>171</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>19</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>19</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>20</zOrder>
+		<pictureIndex>20</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>172</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>20</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>20</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>21</zOrder>
+		<pictureIndex>21</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>173</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>21</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>21</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>22</zOrder>
+		<pictureIndex>22</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>174</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>22</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>22</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>23</zOrder>
+		<pictureIndex>23</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>175</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>23</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>23</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>24</zOrder>
+		<pictureIndex>24</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>176</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>24</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>24</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>25</zOrder>
+		<pictureIndex>25</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>178</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>25</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>25</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>26</zOrder>
+		<pictureIndex>26</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>179</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>26</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>26</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>27</zOrder>
+		<pictureIndex>27</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>180</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>27</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>27</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>28</zOrder>
+		<pictureIndex>28</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>181</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>28</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>28</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>29</zOrder>
+		<pictureIndex>29</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>182</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>29</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>29</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>30</zOrder>
+		<pictureIndex>30</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>183</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>30</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>30</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>31</zOrder>
+		<pictureIndex>31</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>184</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>31</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>31</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>32</zOrder>
+		<pictureIndex>32</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>185</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>32</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>32</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>33</zOrder>
+		<pictureIndex>33</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>186</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>33</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>33</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>34</zOrder>
+		<pictureIndex>34</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>187</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>34</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>34</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>35</zOrder>
+		<pictureIndex>35</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>188</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>35</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>35</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>36</zOrder>
+		<pictureIndex>36</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>189</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>36</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>36</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>37</zOrder>
+		<pictureIndex>37</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>190</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>37</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>37</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>38</zOrder>
+		<pictureIndex>38</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>191</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>38</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>38</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>39</zOrder>
+		<pictureIndex>39</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>192</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>39</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>39</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>40</zOrder>
+		<pictureIndex>40</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>195</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>40</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>40</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>41</zOrder>
+		<pictureIndex>41</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>196</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>41</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>41</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>42</zOrder>
+		<pictureIndex>42</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>197</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>42</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>42</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>43</zOrder>
+		<pictureIndex>43</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>200</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>43</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>43</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>44</zOrder>
+		<pictureIndex>44</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>201</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>44</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>44</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>45</zOrder>
+		<pictureIndex>45</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>202</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>45</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>45</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>46</zOrder>
+		<pictureIndex>46</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>206</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>46</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>46</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>47</zOrder>
+		<pictureIndex>47</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>207</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>47</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>47</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>48</zOrder>
+		<pictureIndex>48</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>208</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>48</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>48</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>49</zOrder>
+		<pictureIndex>49</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>209</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>49</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>49</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>50</zOrder>
+		<pictureIndex>50</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>210</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>50</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>50</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>51</zOrder>
+		<pictureIndex>51</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>211</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>51</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>51</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>52</zOrder>
+		<pictureIndex>52</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>212</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>52</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>52</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>53</zOrder>
+		<pictureIndex>53</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>213</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>53</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>53</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>54</zOrder>
+		<pictureIndex>54</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>214</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>54</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>54</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>55</zOrder>
+		<pictureIndex>55</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>215</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>55</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>55</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>56</zOrder>
+		<pictureIndex>56</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>216</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>56</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>56</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>57</zOrder>
+		<pictureIndex>57</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>217</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>57</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>57</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>58</zOrder>
+		<pictureIndex>58</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>218</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>58</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>58</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>59</zOrder>
+		<pictureIndex>59</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>219</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>59</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>59</endRow>
+		<endRowOffset>38</endRowOffset>
+		<beginColumn>3</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>3</endColumn>
+		<endColumnOffset>38</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>60</zOrder>
+		<pictureIndex>60</pictureIndex>
+	</drawing>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>4</defaultFormatIndex>
+	<height>60</height>
+	<vgRows>60</vgRows>
+	<format>
+		<width>183</width>
+	</format>
+	<format>
+		<width>263</width>
+	</format>
+	<format>
+		<width>107</width>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALHSURBVDhPnVNL
+TxNRFL53ZjrtdPp+82gby6NIgkYXoogRCJoYE/YuDLJz5x9w4cIlC1fGuDFGWbIx
+ykqURDQoagKxPGpLFUX6Ykopnc7zXu8MgiGs9Eu+e+49954vX86cgYAAY2yE/8IR
+gdyn2wxGyDXzci6RzwhOyCAlcsyvDA6fyTIWS7X15F39z1MThwQ+T930NHYr/Vi3
+j7mbTgwBq8cFKQywWNwRfszPcJz6sKktMRs9fa9mFhAcCHx8NurJrBbHevou3ArF
+emJOXwJarGGirEGpngXVcgpvZufWgFIaDwRbJuK9D0wR2liuDawzOzvCpdaOrjux
+ZG/cFeiEDOsEECJAHEAL6wYc74U2m+YTCunjW/lfKVR7l/NGRzBlCOgacsmScMMf
+dsQ4niWWKgBphT2qRswTsQZweIIg1BpM1Ksb15GmuYxaU2D27WK7jVUGbEwBYnUd
+6I0M0MUVwhThEjmnzRzUS4Bjq5C3o6HXMwsJo5Yxlo3vRV93B+tG4hegCCJxQANs
+tsdortkm4sCICgDSN2ChxUAxh3gjbzrAWJF1qYYVIY2lwjyWy8tYKa8SfgVKOW3u
+5VIKS/n3WK38xEjTAUXp8oFASzSyq8u2iqq4IJIsUBcx1BvEcYP0Zy+SHIJItkKk
+eaAmcSV/1K8dCPSd7cqIEvOqIUcwpuIk20yy4cOkWoBxJ6thrCns9MX+7iy52BMA
+WKuxXODxlsDkJPKYtrcDxp4ksZNEg2TPtQMVhHClQmdsfPApBPrfObg/sYw2lyaL
+2ZVt0crzSZb3e62OELTwMUDZAtD42HVRxKXNQoaC0rg34p/qvDwpGbWHRvnNo2G3
+qsjnMXCOOvxtg4hy+GiaglCtlKXttWkK1p8EIu7Z5NXnR0d5HwuTVxhydH5YLLYV
+1xUnRX6mYLNVPncqnKVoqtY98sJs3j6OCPwbAPgNwgtjmIs+iPgAAAAASUVORK5C
+YII=</picture>
+	</picture>
+	<picture>
+		<index>1</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGASURBVDhPY/z/
+/z8DJYAJSpMNMFzAyMjIYJPdFc3OxTsdxP/57XPmkallS3G5FMMA25zuaBlt0yVG
+Wqpg/rlrtxmeXD0dc3hK6VKwABrA8ALIZjkFBYYPP/6AMYgNcw02gDUMPv34y/Du
+2x8wBrHxAQwDQH7+8OIxAx8HMxiD2CAxUNhgA8QEojUwEC93x9tE//jxYx5IjIOD
+I6l04RFwwBKVDnoSbKOlpaSWGFjagfkXjh9iePrsWUzJgsNL4V4A2WzbJR5t2yXx
+x3Gy5CcQG+bs379/L5RRUGR48/wxGIPYMNewgFUAgU2nWLSgGtuSAJMwEJd3w5lV
+S4BiIPbSv3//Mnx+/xbExgBwF7BwMk1XV1JjuP7uAhiD2CAxkBzQz/EfP35i4BUU
+BmMQGxQOIDl4GICcLWbEwQvmQMGrcz8+7899zgfyCsFABPkZ5AU7HUcw/9CV/Qzv
+b/2KOVz2EmsKhAG4AeDoA4YDzNl/vv+zPlL+6jKhWCIqGnEDBgYA4d7GiWut17oA
+AAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>2</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD8SURBVDhPY/z/
+/z8DDGzrTG0CUiXv3r3j+Pz1M+OnD58Zvv/42dyw5lwdRAUmYILSMFDrHJrE6RYa
+z+jiH8lg6+bN8P//v1qoHFbAAqVhYMmuFbNj7t57wPD921eGHz9/Mfz587cZKocd
+gLwAw/aJFb5AfAbKPgPiI8tjw3AGsmYkMYKGgAlsmmGYkCGMWztScIY8MbECCkRQ
+yDN8fPea4eP7twyvnz9l2LlxDSjkQYrwyYEByAB8IU84VrD5C4aRwwZXWKBwkDGy
+ZiQxDEPgDGSMTTOSHIoh8LxAKMRxySMb8B9LiDM0rr3AiE8eOS8QCnGs8ijZmXTA
+wAAAymvm4LfTJEsAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>3</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3
+YXJlAHBhaW50Lm5ldCA0LjAuOWwzfk4AAAE1SURBVDhPzZG7SgNBFIbnpex9CfHy
+AILNFpGktQwWFiqKSgTtghYWGksDmmJRY2GlFkKILibZuLMkm2T29ntmd11ZMkJi
+5cDHf+acOV8z7H+c3XIFs4VDzGh7EyN3knXGtOI+5laLUyF3knXGTq7qCMMQQRBM
+hHy7tlnKClw/xM65jvuXNyytn/6KfOMHCoHjhRCuj5HrUcZk63g2Ej6ESmA5Hj5L
+2+iuLCYsgN/qUWZ6dzoGIlALWtxByx7EySnTOr63JdRTCrokaLR7ER/L8xHN6xpy
++QLlTdqTc0clMEnwZFgRzwan5JRUv8s79WUSMvsqgcGHeGyYRDdKLZdPuajqaW4d
+HMEeeuOCptlH/bUzEVZfjAsGPmALoOeq4TT7hn4yK6jUHrBxfDYV5cvqj+Dvh7Ev
+xw1MUslCwx8AAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>4</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADUSURBVDhPY/z/
+/z8DJYAJSmMFHZcYfDPX3/WFcrECnAaANAOpTSCMzxCsBiBphgGchmAYgKz58eWT
+DF+/fAExQQCrISgGoGu+dXQnw6cPH/AaAjcAm2aYC/AZAjYAl2YYwGcIOB24tm+F
+G8DNw8PAJyAApkFAXlkZTGMx2O/G4a2bwS7YXem9GSQAYmOxDadmEAMlJWJzCS/T
+D5yaQQAjKaMb8vX6QZyaQQAjHaB7B59mEMAwAASQDYECrJrBAOQFXNilbYuvuo2X
+LzY5GKYwOzMwAABDf9q0gvgoCAAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>5</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFOSURBVDhPY/z/
+/z8DJQDDgDsnCmuAVDOEhwoe7LhX7NKwsQ/KBQNsBvwXFhcCMVcC8VIQAwiigTj8
+/uH7DEZx8xghQhDABKXh4NtPJoa3L99BeQyboRgo9pbh84fPICYKwDAABJ4+esrw
+5NG38BuX7/+/fe3J/yePvoc/vfqU4d1ruMFwgNUAEHh/+QLD7zO3GH6cvApm4wIY
+Bvx4xZDz+x07w5ePvAxPn7KB8ZePPAy/f3MwSOsZ5ECVwQHOaJw9e/aTEydOSAsI
+CDA8f/6cYdmyZSiBBwM4vaCtrb1DUVGRwdramgFkCC6A04C7d++KAAGYTZYBBgYG
+Z5iYmM6C2MzMzGAxbACnAe/evfP69++fMSMjVq/DAU4DBAUFJ0KZDECDoCxMgNOA
+b9++/fnx48cpQpkNpwEWFhZrgYasBHplMzAsoKKYgMLszMAAAIgriNTmOQ9MAAAA
+AElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>6</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACDSURBVDhPYxgF
+lANGKM3QfvH/NCCVCeERBNMr9RmzQAxkA/7rCkI5BMCWM3cZZgSpgPXCDchYd+e/
+vLIylIcf7N26lWFPlQ+qAS5tW/6raGhAefjBni2bGe7MK0Q1QCWp/7+CiiqUhx88
+Pb6J4frmWagGaPqmkRSIQAPAgTgKKAYMDADVqyYHkuyJOwAAAABJRU5ErkJggg==
+</picture>
+	</picture>
+	<picture>
+		<index>7</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEUlEQVQ4jYWSTWgT
+URSFzx1nSloaY1uHJtixghUbXAjadCFTwSIEFy4cFTdSoQgVtFTElW4siNAQhK6y
+cCP9QUoRiytLXWZjQqugdWpIEGylE9OfTBKaodE8F8mkyUyjd3ne5dx733eIMYbq
+6h8O+CRJUlzNTee29Ozx1GY6oeuZhWwmPb88E4jCUrxVaD7U+vyOclF2tooQiGE7
+lz+y+DVxXhSMIQCSzaD3oZsZKYaCzqDO/SIikhM5DqfbgHBMw4cvcaz+TGL02tkO
+34hb/bPL1Pw6e+Ps4iYiQY24bLw4QBxWBBdZzW0VHde8+XX2uqGFHhmp0ulco4eu
+7G6zpw5xz4Bg/gszBQw+ewkAcHZxU6yI7oJeeuMPNJBXnUtOA5i2TiRQtQ0AIBLU
+alblouOat1pgjIU3NzZqjH4bOwBYeL+zbBRy6a0Hi0sflXjsWwVjTs8ssIIxv58B
+Xbg39l/u/8oGX497aHLWD6APqJ+N0OSsn7dyl482oe+kG72PB+XKmnWyAZBs+wMA
+uHH/FAQXwSESiwQ1ejLgR3v7QTgdQMTSywF27oKL4BGPIRsv3gSAxI/PGHs1VNNT
+JlwyqKxaVh0i4dKZW2j00FXfiFt9vzyFyz23a3rMkXyZu4zOwxWjF3c/IfZ9bW0p
+lFQA4F10ZfVEp9SRKewNM7PBW7nPVCG63t8DAAhMvFWsGM1s/AUanSzYSJ3JWAAA
+AABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>8</index>
+		<picture ref="v8ui:FilterCriterion"/>
+	</picture>
+	<picture>
+		<index>9</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3
+YXJlAHBhaW50Lm5ldCA0LjAuOWwzfk4AAAIJSURBVDhPnZPLaxNRFIevRQsutLqw
+pIggCIqu/Ae6EBG1FRduKgiClOrChVspFBeiQRRBxBZbJRGsVGGsjY3WUEuDJDHV
+McSoCxdRoQ20NuPkfTuvn3NO6iCND+iBD+aee75z7r0w4n9Ri5/FUlA0MH97I7hA
+zS297p3UcTqkNeBXwqgF1gCJfcCHLiB1FAhvw8LQepBDrjgf0dCXNOB/7+DSOxsX
+ZwxciEn0RXX8CG4AIruA9DHgbQcwvhX5u5vRpprYmZAgV3Qr8zytZyyP7tHvOOWu
+Tz7KIT/sA562AWonMLMfCPlY7hzI4PCtNA7eTOHADRUiqn7CyvgyfoTviXh7nbFW
+lg3TWq6oB7li+s1HOI4D27YZ+fle/d4vdtRl9xQLQ5uWFXh15JArppIZWJYF0zSZ
+UrCZpzsj64Bn24GpvYDSwrm5wS1eHTnkNjTIXt3DfL3S7DZpck/gg3Tlb3d2w7Kd
+xgaTiTQMw4CUktFqDlMOrAVGWyADApmBdm//F+SQKyKxFCcqlQqT0yUWo+dgDwtU
+3beIXe/w9n6HHHLFxCsV1WoVpVKJyeZrPL0SaELk2gkvvxJyyBXh6STK5TJ0XWey
+Tw5xg8f+Hi/3J8ghV4RexlEsFqFpGjM72IoHvce99d8gh1yhTET5SIVCgXl4+Yz3
+/S/IIVfcV573u2CV9PMfufoQ4idbj/2sUDGRTgAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>10</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACe0lEQVQ4jaWTTUhU
+URiGX02dHOeOY+Md0RnBGZtZGNgIIQSuokzbCEah+bPLXWNI4KpVtMqFGrQsRKOg
+CEYC0YX9kDArSbHUsSZ/R8f5y3tzbJp7ztfi3rlJ1iL6lofzPt/7vd85OUSE/6m8
+3w9GXi41B5Y3fXtyujaSTImxrwe5hrx82WwyBD0VtvsP+hvGDt/POeygZ2BqdH1H
+ammsdwp17jJ4Kq148eozAh/C2E58w3ZcSpeL5unpwdZLRwA996ZGS4sLr3Q31Rg8
+lVYwBmBkCPljg+i//BScAzEphaWNKCs8njc1PaRCcgHg0fhS81pEaum4oIo5ARxA
+prMXD/smAc3kCcEIj0M8Fo5J567ffdepAwLBTd/5M07B7bBCYQDnAHECJwKRqicA
+RECJyQibRTCsbO/e0AF7crrW67ZB4QTGCQoHFA4wTuD0S5xF2UpMkPa/e3TAbjIl
+nnSUwtjkgsIARSENAKysJ+GyW+ByWFBlL8HgeDvqPOVIZxRBXyMRoDDg4FovMkzr
+wwFOQF9XPRgjMFJdJXZ9aDxbjYnAMtcdWIuN0cW1GKSrPiiMVBf6KASF1HGIA7FW
+H1Y247AWG6M6wFRUMD8b3IHCgAwDFMaRyYK0UDkHmBbqQigCoahgXgd4nfbhN7Nr
+8vJ6XBcxLUiuZcFIHTUUTmBmblX2Ou3DOuBmW81EuSj4n79eTAc3EiqA5cDybAiu
+tmp9naFwAv63i+kK0ey/1VEzceQpt9+ZHA1HpZaG01XCKVcZ3HYrCMCnrTgWQhHM
+zK3KFaLZ/+T2xa4//gUAGHj8sfn9ly2fvP+jNr6XErMhC0UF816nfTjb+a+Af62f
+k99eE+O36/QAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>11</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJWSURBVDhPpVNR
+a1JhGH486txc4WLI5tQwY26Cm0sXBMubEaiQYbfdedt/aBf2H7Kb2KUXw0V44e4T
+ijmkzQWbEB6mJjJ0jVJPiZzO82XWxrrqgfec97zv8zzf+d7vHB2uQLVafXZ+fp5U
+FEU8j4+Pw2KxbDidzuei8BcuGFDYaDSSk5OTcDgcMJvNot7tdlGr1dDpdGCz2S4Y
+ScO7EFcqlaTRaMTCggdjY2Po9/simHs8HrBHDrlD2R+Dcrmc9Hq92mo9tFpfcHLy
+WavJOD6WIct1nJ62tTfoghxyf5sYeDk4OHjRarVgMplgMOhRKBQ18g8oSh+qyhkY
+te0YYbXeEBxJknB2dmajVswgm82qLpcL3LuifIder4fu0nhpNBgMNDOTmIUsy4jF
+YjqxhWazKVy3tl7Dv3IHq28OEdpIIfzwiQjmrLFHDrnUEFI6nVa1wWipAS9fpeFw
++fB1/TFm5+Zxa35VBHPW2COHXGqolfb29hCJRDRXI6atbpjMM8J5atqGWfu8COYE
+e+SQSw21ktvtxvb2trY/HRxOJ+bsTjzafQfv9SlMz9wUwZw19sghlxpqxag2NzdV
+u92DT7VvePv+UKz2L4Tu+XDbcQ31ehmJROLXEIPBYKpQyGP9fgCRB6HRypeDPXLI
+pYba0WHlcjm1WPyApaW7WFz0YWJiYnSUPMJer4ejo48olXYRCKwgGo2K7siAKJVK
+ajwe1wgBrK2taR+OVRxZu91GPp8XQ8tkMqnl5eWnQ8lFA4Kf6M7OTnJ/f1+8BcG/
+0u/3IxwOX/lH/geAn9FA/YatLZwxAAAAAElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>12</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACISURBVDhPY/z/
+/z8DJYAJSpMNwC7Y1pnaBGSXvHv3juPz18+Mnz58Zvj+42dzw5pzdRBluAHMgP/O
+oUkMH9+9Zvj4/i3D6+dPGXZuXMNw/recCVDNGSDGSbMACRBYsmvF7Ji79x4wfP/2
+leHHz18Mf/78bQaKPwPiCHz0aCCOBiIIDPlAZGAAAA1Yy4ec2gwsAAAAAElFTkSu
+QmCC</picture>
+	</picture>
+	<picture>
+		<index>13</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADwSURBVDhPY/z/
+/z8DJQDVAEYojQ3gsIcJRPj5+UUD8SawCA4Akgepg3LhAGwAEIQDcSOEiROA5EHq
+UAHIC76+vkCSMMRQB+TBXEA2oNgAFii92c/XzxjKPgPEJlhoENgMpeEA5oKVQFwP
+xM+AOAIHDZJvAWIUAEkH+OIfHwBpJZgSCSQuigMR7IJtnalNQHbJu3fvOD5//cz4
+6cNnhu8/fjY3rDlXR8gFMAP+O4cmMXx895rh4/u3DK+fP2XYuXENw/nfcthiA4WG
+ReOSXStmx9y994Dh+7evDD9+/mL48+dvM1AcX6yAacKBiBcwMAAAScOITNl1LtUA
+AAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>14</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAbUExURQAAAFiWv1Og1FKcza3X9FCXxZDC40+SvgAA
+ABsvxl8AAAAJdFJOU///////////AFNPeBIAAAAJcEhZcwAADsMAAA7DAcdvqGQA
+AAA8SURBVChTpc8xDgAgCATBQ0Dv/y+WghiCnU6xhSQQweblQRpITpKAI5SAaqYl
+oM/pJeAKJffSvHb8/4XcW1cGXdWCDyEAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>15</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALBSURBVDhPlVJL
+TBNRFD3zaUvbqYX+KCYYF7qCNCz9JC7cYTQBElFc4AISMdGNYYPGaNy5UlkqJoJR
+4wY/rNQIxoB8mhioIr/Elk+xlP6mLTOdT2ecmVoC6cqTl3eT9+455757H6GqKnS8
+GR5ulGR54sFouO76qfqd5uZmpDg5MTn/W/r2Y1nUc0iKFiiK2qipqQ7KovDh88yv
+aUNgaHCIZQ5Uz1Mk3USStJWmSRSLEnLZDDoudWB9R4GoqCgUBGRzeaQzWaxGY3j0
+fKSVCgQCjbTJdEwQ1OOLi0umZDINUZRhtzkAogiv1wung0FBIWE2m+Bg7PB5XNp9
+Fd5+DV0ki7I8abEwTSsrK6g/dDh37uwZ2BkGvMCDZfMYeDIAK2W8ch/mIgkQsgDy
+fHu7g+cFq9vthcftedzQeBRut1NzYKAoFPpu9hkEM6GCL4hYCMfw8uMM3n8aN86J
+wWeDrMlsNykKYZVlWfB4XZZ0mkWtrxbB4DQEIYvuG7fwYiqMP1vbWFtdQ5YTkM7z
+4LajICVJOplKxWdJkoDT6bSYaQt8Xh9CoRDcLgeu9FzVuk/BZmdgdxyA0+uHycqA
+oExGBWRXd9dPrTEN0Wh4Ynl5gZ8LzWFqahwWi4qNzXX4/X4sJyUjGfrEjakT+maA
+1LfOy51OUSz08Bwr9fZegyRzaG1rw52795DTuDlR0bJK/6XEVXcldj9SGWPfl9QT
+gSMgCAJjkQIOumwIJzhEtlKIxVPYjCe0mEQilUE+FilVsBe3n46g91UQD7+sgpN1
+Zx26ieapr39+ZdsKgb1Q1d1CS0FjlYnlmwoB2lIFLseWMsp2e2EwCShiAar2zAoB
+AkR/Lp1EPLqh8cs++4WEfFoT4DR7ur+iiS3331kJPn26rtZ3gbFVtUCRyQzLanMg
+mQyby+a5wiYnyLMsm33NkbbRCoH/A/AXBihAwKnCiLwAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>16</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALKSURBVDhPpVNJ
+TFNhEP7e0tUWkISl2g2hqITAAUy8mLgcTYgePHo0xKMmJhoMojEaL3jxoJw0mEj0
+qF7BGBckoBTCkrZ0hRYKpX10f33v/f7vQY0LNyf5ksnMfDPzz8zPEEKwnwz1t7bJ
+aZZjeLnEWhn90LMV/57rD/knwatBz1V3x9lBQ11bo97SwDIcCyWfwkZ0aqsQnx7o
+u+0f2QvdFTWBipsXjtV/GLvkW/zynGwlvERRBEKUHQ2qnt70ktmJ++T90+PeKkcr
+XlXGX573heffEEUKE0WOUqxRxPeg6lEiSyESmHlM3j5xzVZ5rNrF6+FjN+pt3R5H
+uwNE2UIs6se3ya9Yjy+ByHGKBEUSoD5350k0Onu7R+81X1G5WoLaGut1V3sTZHGV
+IoF0ag09J/pQqrgQDgawk4lqdhWKGENbZwfqavgBLcGd/iPtBl2l2cAnIBVCqOSC
+yGY2wfM8WlpaYW+5iGjcgaAvgIIQ0mKMug2YTLxT3RRbFMpmoz6LcmYZYo5WKa6D
+VLI09+529Ho9urp70eC6DJ8vjdx2EuVsBGZjmSGCApYwYlER82AkAo4YwMg6yuU0
+8u+iTVxmwMq0bdlA56GA4+Qia7ZayE5GB0k00AFaaGgthZGCUXkQRRFz3mkkfS/g
+sR+gHdXRWRiRFfQ0XGdi746EfJLMrOYyZTBcowazyQpJkhCkxxeaHYXdvAinrQk6
+QxP1NyMnVGgHbJheZ0DbQjJVehQJ5VEu5MAabHA5nJicGANXWoLT4YbJclizqxCL
+eYRXBBSyygOV++uU3w13zNvcZzpbu07DdNBDKxm1dzPM7lOIXEIpHcDK/DjS4fHv
+564t96h2rQNVPk8wpzZjU3OLM5+QjHjpulLaoOgJavr22gIWZj5CiE3+qJJV2fcz
+NRw6ektvcdsJb2F4HQelsE2UUiQibPgf/v2Z/vM7Az8BDqaiWQf6J9wAAAAASUVO
+RK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>17</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHbSURBVDhPpVNN
+SxtRFD0zk4kJIdYGqR8Fu3BTKAW1oK5cdFGE1kVFhG7c6U/wtxRcFBctrRT/gOBC
+acEvlJaKGFtNcUSDSTCOmWTy5r3e9+Y500VLoTlwmLn3vHfeve/OGEIItAJTP/8b
+LRtELey9f/7TTPm+CiQon0kbX/vHV17qzJ8hDbaWxt7yRkHw+rHgjSPFoPZNFL/M
+lzcWX8zKNX9jQpn4uRwSNkTgKFMFUjLdI3etRH5y7fXTScu2YdtJLQJJu7Q88Orz
+gjJoeDXa7CFoXirxFobVxNDE3LgOIxQLx9he/cAHgAV1iYwxcHYN5jmKzZqDw4Mf
+2Nz5jiv3FJ7vKNY1fV6kspVXOAUeMAh2g8A7j+icljE4PIeDvIBTuABzY403Kmqz
+hDIQ0kDS92JSnG3P4cnoDKzsM+wfpcDq1CppYPGwlIFpmjRPCwZvi0kx3YKUIbgk
+rdEahK3yEmEFXDaUIt75jW2oXpWwvf4OvLKORw8sWGaH1jLEEKEBHSEnaiQ6I/bc
+y2F37Q0e9tno7e6ClYw1w2yn4sLqdAUclYs8yqWqYqVcRUeaof9+Fm7VjfK3dN0a
+mZjUmP6U9z+OzpycpafpPbT9F+j0vl5/6fHUp8UWf2fgF0jpFgX9ZLaRAAAAAElF
+TkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>18</index>
+		<picture tx="726" ty="15">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABJElEQVQ4jaWTzUrD
+QBSFT9oo1h8U405E6g+SJ+gTRHDjwl12bhTpIrpVcOULiBvFvWThGxh8DbMU22Vo
+qWARJpl7XTSdNk4rI7kQOIfM+e6BYSxmRpmplEoDsAFg//T69l06hwCWTIP1aufp
+5fHmws59Y2umaxwGACY0BoIZ53fP90TEUkqjj4j4qHn1yswYNkBGQK/bMdq+6qwp
+rQApA2EYTgx4ngfXdZUXNLo5BRBCwvf9qVuTJFF6cdnRAYB5g29BOoDyg9MmjmOl
+N7f3dAADiKJI/QiCoBAeb9Cf1ECkWaHB+Mbffr2+qwNkJv9sAEC16PWFDnBWFnB8
+FqBiDfxXOtq+seNCMvCZ5+bnZouAduvj7eDk8gH/mJpttQDAKvucfwCCqphI8ZXA
+2QAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>19</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA3ElEQVQ4jcWToU7D
+UBiFv0IRCAwLCgWqb1BbNYngERATGLCQgNkLLDOQySaovcES3gFF6paNoAizJG3v
+Pai1abPd3KVix5x7xfly8t//BpLoooNOaSAE6A+eRnPTuwJOfEIXh79vs8nwvgIA
+8eXRyisMIEtcXyTuxtMX7aDr28d3SUhqzuDjD9I0dXpbFcBYcbb6JooipxurzQAJ
+fk7PybLM6e1XrwHg1aC9NQ2AV4NtgNJYrwalsZsBeWFInqcATs8L06zQdQ9CgK/l
+4jO5eXjFU8dhsFyfg73/xn8AwPx3P/ZbUgAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>20</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJRSURBVDhPpZNd
+a9NQGMf/55ykSdN2Swp9W7utXUd1qLgbX4ZTYV9B1G8giFdeya6890Iv/AZeiaAw
+8EIQN1AvFCaoqCDCtoJs004xmUvbJefEk7SE1t3pLzx5cl7+/zw5J4cEQYD/YdDg
+uIyrjuPMhw1FUcJ0AMMwHsr0SMa7sD1ocPv16ofrq5+3ZC+B7wsE8oIc51yAQGDf
+83ByZgwL507NyvnDBrZtN+/cfzHh6SWpCWA7bahMyoQ0EKIXnKOUsHHt8vyrQqEw
+F+riOimlLJ3UwFPJyIBRisVLxyITyiic3208WPmCwOV9RQ/az6E7zWZUTBd1FEwd
+mYSPe0vP8XV7B83NHTxZbUJVAV1j8gtJrIsforIFwWaXwKYMwaiJdiKL5Y8tvFm3
+seszqFoCXRIVTSKRZMAAMHWKkqmgYjI0iklMjZso53TkRynqOYZRM4lsRu8resQG
+isKERToo011MKHtopPbRMAPULBXlEQXVrIKjOfmClAinR7eQoc1eenkLneA7jihl
+uCKHT+4GhLoFVdcxyc/Cd125uAYWb9yM9z6uIMRQfXT5D7z13mODPENmZB0jWhcG
++YmW8hi/0svQ8tv92T2GFlGf5qgdpqjWNVjjFGOzOqZOJ1GYS6N0JoXifBqditNX
+9IgNhBDcYx3wcgKeFHOPYO9bgFazC9GR2+wK+O19GDzRV/SIDSzLunu+egWeWwFr
+15Eqz0Ar1mGUDoFhCgqZjuJE4wLy+Xx4HiIGz8JFGZNra2sL8keJO/+mVqutyPRU
+xoHD9A8AfwCF8NfRYOkJQgAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>21</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI6SURBVDhPpVNN
+axNRFD1pJiZtEyK1CcbYLsSCUIRSu3WhWRuXghSL/0AQXFUUgghuLC7swo11YUEQ
+1Igrowu7bHFjF340aDSJJtMkk0km8/XeeN/LJEV0ZQ+cuffdmXfePfcxAc/zsB+M
++PG/8c8O7lw8tUwhJ/JPynE6hWMupqPTrIvSABXi6l8CG2u5FxTOOVYPr786KHop
+LCaLaNfKEDWbKMBsB1rXqvwhcPfBwxtfGu5NfznE9scdP9vDUuQd6q3enoX3T1e2
+KJ/nngvP4/hQMbFppbGYrsPpaeh1NJjERrWENfO0FNhuR/tD3Fy/tdzdLc8bjQrM
+Zg1WS5Wbl9JVGGoJTleDEgBso4NDqSl54Hc+gXIwVRjcQi59YgGHZ+aQPDaLiakZ
+WRw9mEQseRSR+CSUSBTh8ZisC7yxZ7EwrmaG18g5B2cMzHXAXVfWGLPBHAucyFxb
+WisaY/LdpcRnsFalb8HjHhhn8GgjY0THRqPVpujI3CUK4Z1uBM9+JaVAQP8poyIe
+b2vRwrcfZkbkDZrsAFdfiXsn8xj1Gcf5aQPPS/0uCHkpcCahZ+JHErJN1x6jO7Zx
+5WUVt8+K3KIOyBbZ6Gi7GBF6kAL5a4+3stKCZbRh06QtvQmTaOiqKNMmB4amoqfV
+ZXTMLs3JxXS4++Ty/Y2s+GY4ROmVfIrIibIm10TaxGlGPvKPVu9d8POhQF5XyzDp
+FNfsyMLJSRSUA2EooTCCwRBC4X7b2evr8uQB9vk7A78BzLlASYEbjvQAAAAASUVO
+RK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>22</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJGSURBVDhPpZNN
+aBNBFMdf0zbZ3TapVJBcSsFDJAHx0F68LaWIBUEUag/iqUguEgrFQtEcxFJKDh6K
+CCKCl3rxJEQ8hVZzUDS10EBQUpT0I2mS5mO/Zz+ycWa6XSxp9eAfHm/e2/n9Z3aY
+6Wq32/A/OtFgJrU3itM1HPzX1q2LpFfZqmR7i4treJjMLUxmSI+ow2BicyI67k3G
+ENIjqoYgF5wGJCEQ90UwMvNQrTdy9YawLL6895zM91DKEZ/mo4yfSfj7uyMM4wOO
+ZWD451MKi2XRmQURjmUTg3ODUVK4Bs62Y2yADbw3bwA2of0+joUwegXD+gtacwwD
+/shSwMt5Y9hk1P2Fb2Ut5WF+jPX4esDT7QG/GQbbtsE0LWi1bHizsQ3J9S2oBWbo
+fKkigaEaj1yDHclscL8+nemVS7T+U4KMoBq6Cm83S/B6dxJ0RQdDMYjBB9egurHa
+6mpue4QWdhcaoCMNDB2BZeDQdbD6g3B2bBpm0zehUC4cGdTdMyBwDZkdsKmpYCIF
+lJ0syMU8TIWmKCzl74O+9+DwEOWPK6tkFU2VO2CSaY2/N9bfwaWB63RBR1lqoCCN
+31fUU2GkHfbr3z9TiqzuaI0aqLL4T5iEIEqUcpTDkaQGhepB/G8wkSSrELhwmY6x
+yK1aVlZmM9SAjy4u1Eq7p8Ikkx0OjYzDl3ypgltzGD5+lQ+KhbjYrJ8INwURQlfu
+IOtcOD3Q55s/gomOPaYnt0ce4vSYjA3LJglMfAtV3YqfHwom7j5LGbTpCuA3woyf
+pdBWJ9cAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>23</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMwSURBVDhPVVNN
+bBNHFP521944u7Edx5ukgcb8SRU0iCJoD2nSFpSEJkGtChzgkEsB9YCAAxKoXCq4
+woUD6gFxoKogbQ+tSgWXqrfWhyhKUaVGRCoJJXE2jv8de73r2dnXWW8Q9K2e3jc7
+873vvdE8iYjwug1cmTEiIfmsR3TEYdRlNTnVHJ4Tx34V23cKd4YrwcnA/pdg6Nrc
+qU4t9LWSiCT0hI3lDQ1Fy4PbzCO/6kGqICOOXRBJfgoYgLwZMXx97m7fFn1630E5
+ceKDZRgxFV2xCGKxNrhtCUT7GaLb81u9EPsx+cXvNzZpQYL9V2e/jPboZzq2RGFE
+gZWVPsRUDV3tCqKqjLhG2GEs4v39jxE2yiBYl0WSoz5X6j+fTvbG1X+7B7r1HYaC
+/nYHO3sc/FOIImc3wbwldOq/YD47j462OP746wjySwZCvDsn+ANKx3unL6o9+mRH
+UsXenhVsTZQRj+SQ0F8grv8JLs1iofgUz4vPUdjII2VYMM0UqOHqkqxnZJfT4UY4
+hG1dT0U/GVQpjVXvb6wrCzBpEVk3A4vXwclFo9kAYzZCygaIV/0OxmXmurt2vrmA
+pPYIc4sqzDUDWVNDwZRRskqoOmXUnRoYZ+AeB0kW2IYM8pog4imZPNa8fHA3rhy4
+hqsjKTwrcjBlCQVBzlayouwS6rYFmRRxeQSXN4UwE+6JJEwNhSW2/E5v/9uTh0fx
+8Lefkeicx0TqJPYkB4SCTxEfccyuPsHNma+QWdiGdrkOW5XAefMF+s48vGSWGzQ4
+OEh5K0c5a50KVrm1XqvWaa1Sb2GzXKNspbzpFVor1enz2zO35LfeiHwnHoPn38gn
+I59i+t40vr9/31/i2Mej+GH6QQsfnxgTlcj4bHxC+DgefHsPd8+9e8ovM9xw3KKv
+Ivpuqa1XK4Fq1SazElRnCkWzVAtwMYjCVlsvMaIqth+ZrfhBdC21IjxRGLWKE/Zq
+ZrS2sLUJX82CbzE9UvKjxyQMffiRKHtE8EjgQzg+OSYmL2h1fPSQNjU1VfPxy2n8
+RviYD8QYS5bNdIe5qthrCciS5KnhkKNFwo3hoaHedDpt+v8BHP0PqRueOvMoZB4A
+AAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>24</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIkSURBVDhPpZNP
+aBNBFMa/pjXdTd0gAf+ghYDoIamlh7YKegnipSBaQb14ET3kIkGQFsR6KAaReguC
+iBSkkLMIgdqDUhVPCZSkdQtNkZQ2tUnDBrNu9l82cWbcLNE2ufiD4b0Z3ve9ecNu
+V6PRwP+wr8H9D/kREi6TFUpaNwfpWXG9uHxg++kiSRNi9EaKnlH2GIxlxsKX3ImI
+punBqqpBPHYXmqyhslOBkXqIXaksSuWfscrsvVe03sVUNqEvoTAncDPCwe4gx/XC
+w3Pwf3/BxJVCxa5C0MPzM75JX5huHAP72hHey3vnzWsgJuy8z8MjoL2BX3/N9h6O
+gxB85nV73BFiMuKMEBfLswMnNu709PbA1e2CYAZQr9dhmjVYVh3pLQkLmRw+/7rN
+6uWiDKNqTDsGm7JZVlX1ULVUYvtWpLIM4chhvF/bxdzGdeiKDkMxqMEnx2AlV7Bq
+VcVFiw3SVTdMFg0St3ZK6Pf343TgFG7Nn281kJw3aCdWdQNCH4/Vb1k20vjJcSaW
+sxPQ84/+POLHr+kn7cQ01iwLsqIivSTiij/CGtosN28w1UlsmhaOH/VBXFljxbS7
+zaIzQicxjZSS5HwLFJGsRNMgmicP1UmcWc1heHiA5QTqFFPiD1LM4OKFocd0xnbi
+JqNnB/Eumd0m6SQR7/mUo7nNwr5i2v3c6Bktuf7j7cuFpatNMeWvn2nq+VyD3uSf
+WRnx2ESXnbYA/AZNb4VKF1i5aQAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>25</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIkSURBVDhPpZNP
+aBNBFMa/pjXdTd0gAf+ghYDoIamlh7YKegnipSBaQb14ET3kIkGQFsR6KAaReguC
+iBSkkLMIgdqDUhVPCZSkdQtNkZQ2tUnDBrNu9l82cWbcLNE2ufiD4b0Z3ve9ecNu
+V6PRwP+wr8H9D/kREi6TFUpaNwfpWXG9uHxg++kiSRNi9EaKnlH2GIxlxsKX3ImI
+punBqqpBPHYXmqyhslOBkXqIXaksSuWfscrsvVe03sVUNqEvoTAncDPCwe4gx/XC
+w3Pwf3/BxJVCxa5C0MPzM75JX5huHAP72hHey3vnzWsgJuy8z8MjoL2BX3/N9h6O
+gxB85nV73BFiMuKMEBfLswMnNu709PbA1e2CYAZQr9dhmjVYVh3pLQkLmRw+/7rN
+6uWiDKNqTDsGm7JZVlX1ULVUYvtWpLIM4chhvF/bxdzGdeiKDkMxqMEnx2AlV7Bq
+VcVFiw3SVTdMFg0St3ZK6Pf343TgFG7Nn281kJw3aCdWdQNCH4/Vb1k20vjJcSaW
+sxPQ84/+POLHr+kn7cQ01iwLsqIivSTiij/CGtosN28w1UlsmhaOH/VBXFljxbS7
+zaIzQicxjZSS5HwLFJGsRNMgmicP1UmcWc1heHiA5QTqFFPiD1LM4OKFocd0xnbi
+JqNnB/Eumd0m6SQR7/mUo7nNwr5i2v3c6Bktuf7j7cuFpatNMeWvn2nq+VyD3uSf
+WRnx2ESXnbYA/AZNb4VKF1i5aQAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>26</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY/z/
+/z8DJYAJSpMNBt4ArGHQLCrKEFb3KfgPC2Pcb35Gq+/fOBm+/eY99vMP96KzTa/X
+1r5+DVWJwwU+X744/bmp1CEu8cdPS/eniLClogiLhIDfnd+KHQJ1FsFQZWCA1QC2
+///zxWfcVhF5bcDA9us/w+cfjAw35SwYXinyq+z5/S8OqgwMsBrwW8fZik/PlYFh
+tjQDw1ljhrMMxgwPgeJ7RDkZ/n76ZgVRBQEsUBoFPBSWYXgto8twn4WNgfHOLYad
+kt8ZLnC+Zvj07DXD7+fPoaogAKsLfrKwHrv9/SPDx48MDDM/qjFcOhzMcO+eCwPj
+Y0mG36zKx6DKwACrAS+ZWBY9u/X8zsPrrxlYnvxiEH57jcHhgCiDxHOhO39YVBdB
+lYEBzmh8KxodfP//7Tjm/zJWDAIMDH+FWY/9Y1JfZHaiCSUaR/MCAwMANlV/CRJ/
+9Z4AAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>27</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKLSURBVDhPnVNd
+SFNhGH72d3RnbuqcTl05nSYiZNLQqMRIFt4ppHYR5F1IUZQXXZVBjbyILor+iAoC
+CRLN8KI/6E4IQSSdZbKWUa212qad5Tw6tnN6z7dpjuqmBx7O+70/z/m+53xHJcsy
+Tl4dPgOggbiOmjJrfrHZZDh73l0TXxH5dHojJolz2lSMhsvHO9uSkpRe/sZgVTn2
+Ne/CajyOK3cG0N3VDh3HLd29P3SDyg3qVFsKkiT/wawsDq17m9DW2sJ6djdux/jM
+u9cUzhI/ZAj8DbcvuVFkKYA/EGRrY46BPQnjxIsZAjqt5p+MLYso21SK6gp7ujuF
+NQ8gyxJ+Bm8i7B1B7PsbltOanMhzdMFaeQjfQmGUlZbAwOtZbQ1MQEUMPDgHra4f
+jvoEsAcQhFyEQl58fv8IYoxDIJSAtagQZEsG2BF2Ph2q0Hb3w7qwjSYp4QMikSqo
+1R1obB0F8pvh9c8jmzcgqQxsANtB8dtXpdYEvbmHPu0tJ+CcxCLlF/Md+DEzi4NH
+TylthAmsLMfScQpMgK91mZLVLmjCn8h2DStMOp0w0tO1tRZzY48RWVpANM6jKIdD
+d28fyylgAiJxqrweApF2D5XPi+clIqYWX+DIxCD5IaDez2Gg5xmS/LrvDMwDf44x
+mj46NdMphGp4xjowP++idRVlndii34E43UYpmXlbmYDPZgvMCUEaoFhR+QrkCj6y
+gvygYWvQhpamA6i0WcBnc8rIOtjPdLj/Xm/iieeEIZpnH+e+QCPXIWnTASWASTBD
+ML/8aFzJmk7PoECv9j68foE5ywTchYUYte9XFayGj+kTYqda3lynFCWH1iPqc4cj
+lvJr7SOn5b5QSElngAn8P4BfU4zv0VA3lzsAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>28</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALjSURBVDhPnVJt
+SFNRGH62hc1JTQ1LJOY3foWaliJOJQNzSiM/aGRJlpYRBf4RhKDoCzIIitSSoIhE
+CPJHidC/fphJsNkHNOaWyyVubU3n1bu73X3c2z1n6a9+9cB7z8s97/Oc933OkYmi
+CIIL5tGULK63e14Y01txo4w1Nc6tmHUPGWHkNTM8ydGif2Ab+dTPHNmt3dv4Tqlk
+CzW+dnhXrOCjO6q2q/gqpWJ1/PPXT8tBju93uVwIhUJQq9VgGKbTYDCM0Q4GPg4/
+M2tedpXygxDdOfjlCsNmd8Atvws2Mo37daPQFekQFxcHmUxGyDAajfD5fAfkpIME
+saGLWwZM3C38YGaxwa6DD7OIKBwQwgImLRNQqVSUrFAokJycjPLyctyzJxipgGUx
+ggSvDkHXToR9KfD4fmN9w4/AhoigtwTfbRXY9EoQBESjUToGARWQcavgrIcRtbTB
+LHRgiX0h+cCCsTUjvFaK9KQCKhCJRKgHRIAIbQns2xOPRacdziVpPlsRGG4Gfj8D
+gd+FaCADA8eKKZnneQSDQRpEyO/nYgJVOamozUyC0+nG2lI+OEe7NHtIak3AlZYy
+ZKcmgmVZeiqJcDhMg4Beo9HuxoPOWjQVazBlyoTVtYq8tET06w8iTR0Pv0QmBpJT
+yUqCCPi5AOg1Hh96Kz7vrqOKZJNALpfT0wiJXB/JSRfEPMIhdRNzjpjA+KxVVLNO
+PBl/BUkf50624VB1JfY3tFOxwtxs9HS0QltRhg+mL+i7egcFuVkoqa4HVXs/vyy2
+nLksSg9EdLvdov70RdHj8Yh52ia6kn/Np3q39khdIBAQ6wznReoBgdm2gJV1PxWc
+X1jEN3fs+de0diErQ4PiylqYPQG6R+tCXpy91BczcRO6Ez1/M8kLecyLx49G6Hrt
+5m3o6rVIT9fAyZFHpcTTocGYBwT5Nc0kibGkyaQgOd0kJIfjp94yPTUp1R2Vfr2R
+wiTF9S2B/wPwB6oNlZ+oqEBtAAAAAElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>29</index>
+		<picture ref="v8ui:Constant"/>
+	</picture>
+	<picture>
+		<index>30</index>
+		<picture ref="v8ui:Catalog"/>
+	</picture>
+	<picture>
+		<index>31</index>
+		<picture ref="v8ui:Document"/>
+	</picture>
+	<picture>
+		<index>32</index>
+		<picture ref="v8ui:DocumentJournal"/>
+	</picture>
+	<picture>
+		<index>33</index>
+		<picture ref="v8ui:Enum"/>
+	</picture>
+	<picture>
+		<index>34</index>
+		<picture ref="v8ui:Report"/>
+	</picture>
+	<picture>
+		<index>35</index>
+		<picture ref="v8ui:DataProcessor"/>
+	</picture>
+	<picture>
+		<index>36</index>
+		<picture ref="v8ui:ChartOfCharacteristicTypes"/>
+	</picture>
+	<picture>
+		<index>37</index>
+		<picture ref="v8ui:ChartOfAccounts"/>
+	</picture>
+	<picture>
+		<index>38</index>
+		<picture ref="v8ui:ChartOfCalculationTypes"/>
+	</picture>
+	<picture>
+		<index>39</index>
+		<picture ref="v8ui:InformationRegister"/>
+	</picture>
+	<picture>
+		<index>40</index>
+		<picture ref="v8ui:AccumulationRegister"/>
+	</picture>
+	<picture>
+		<index>41</index>
+		<picture ref="v8ui:AccountingRegister"/>
+	</picture>
+	<picture>
+		<index>42</index>
+		<picture ref="v8ui:CalculationRegister"/>
+	</picture>
+	<picture>
+		<index>43</index>
+		<picture ref="v8ui:BusinessProcess"/>
+	</picture>
+	<picture>
+		<index>44</index>
+		<picture ref="v8ui:Task"/>
+	</picture>
+	<picture>
+		<index>45</index>
+		<picture ref="v8ui:ExternalDataSource"/>
+	</picture>
+	<picture>
+		<index>46</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAUdEVYdFNvZnR3
+YXJlAFlhbmRleC5EaXNrTl/4kQAAAbdJREFUOE+lklsow1Ecx79Dyy13a7mXy1BK
+pBVKxBPLNU8ID/LCAyl7m2LJiwd5ouGNBy/Dy+YSya3YlMxtxMhGmNGmFcf+x0GY
+/Mvn5Xd+l++3c34dAXGBf+DBIi8WNraRUdVC4zu8DThRe98wnpxOVnmDlwEnVg5N
+oL6skFU++dPAanuEbs8IWZ4UrTWlrPqJ2yVqt44wqtVh13SNgrRYyDLj0NozCG70
++eUF3kIhvQ015Ay+I1dpiHrNQFSaTZLQ2E/kIxrWISRF1kTm1/UsI8TtE5QNRZBJ
+k5EaHQ5/HyEC/bxZ5ye//oPmATXm9MfUYLyzGpKoMNb5imB5/5IoJjdpUpQWibrc
+JIiDfGGzP7l2YUT3+CKiQgMw1VVDZ77jeRaRr6jNTUS8KAAzehPM9w6kxwQjyM8H
+qTEizLpMxCH+KJFKmOQrXorKTOQkiWmycmCBxWVwZX3EqsGEG5sdRvMtOqpyaN8d
+Hu/i7dMbWGwOVGTFIVYUjBPzHdb2ztFWng1pcjSdcQu3xAeHkxQqp8mgZocYLu64
+Em9waLZS8djSPi30qnU08kXAidllPtDKi9npL4BXGOswLSsG/0sAAAAASUVORK5C
+YII=</picture>
+	</picture>
+	<picture>
+		<index>47</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3
+YXJlAHBhaW50Lm5ldCA0LjAuOWwzfk4AAAC8SURBVDhPYyAHuLRt+T//4I3/UC4m
+yFh35z8+HD7rxH//SQf+Lz1+H7shIBuIwSpJ/dgNAEngwzDNfeuO4vYGPkC25rAj
+Cv9XPOzBrbH5kft/fLjkhtX/lLM6/9c/nYzdEJANxGCDPKH/U7e2YhoCksCHvVfJ
+gGmsmokBZGv+H+/1///aRbg1/p9X8B8vro/9/78o9P//7SuwGwKWJAK/tlL+/3VW
+H6YhIAl8+GeIHZjGqpkYQJFm/ICBAQD+2xv7zs/TOwAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>48</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xh
+BQAAAAlwSFlzAAAOwAAADsABataJCQAAAB90RVh0U29mdHdhcmUAUGFpbnQuTkVU
+ID8/Pz8/PyAzLjUuNefKA2EAAAB+SURBVDhPY2AYBVhDwKFr538QdmnbAsbO7Vv/
+EwoqkIIGmCKQJmQNaHyQHIp6mFq4JpgGm779YDEsBoCEMVyFYgDIC86tm8GuQncR
+1Eb8BsA0gQzBYgBhLyDbTpYLQM4EGQKLDaRAhTkdvxfIiQW4HlC8w9IAsemAUDoZ
+xPIAH+BkJrGgRacAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>49</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xh
+BQAAAAlwSFlzAAAOwAAADsABataJCQAAAB90RVh0U29mdHdhcmUAUGFpbnQuTkVU
+ID8/Pz8/PyAzLjUuNefKA2EAAAB1SURBVDhPY2AYLOA/0CEg3ECpg0CGgIFD1044
+m5ChIFthLoBrcmnbQrQByAqpawDIGyBs37kTb9ggewHkXbArkL1ASnjAwwvZAFLC
+A6sBSC5Adi3+KAf5G2QzWhhgDXBC0YwsT3TU4jKUqgaQZRjxgUhswAAA9DFDYfgs
+T48AAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>50</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xh
+BQAAAAlwSFlzAAAOwAAADsABataJCQAAAB90RVh0U29mdHdhcmUAUGFpbnQuTkVU
+ID8/Pz8/PyAzLjUuNefKA2EAAAFPSURBVDhPY2CgBvCfqN8QvsjwPwiHLTD47zhZ
+/L/zFKn/QbP1/7tPUv7vPUn9v32X1P+AiQb/QWox7ARpJBZ4Nxv8p8gA4zwxTJc4
+TZXA64CA7bL//bfJgtUYZoqBaRSXOEwSBwsG7ZX7H7xPDsUwkGan6RL/rVpFweL6
+KRDasxrJKzADQIrcl8r+B2kCAeu9ImDN+rlC/09ePgIxIBliAMgl8LBwmAhxAUgR
+yBC3JTJgQ9A1g9ToJSFcAjcgdK4B3NkgQ0A2YtMMUuRarA93CdyAoBkIA2AuUfcT
+gTsbOVCcciAGgFwCNyAQmECIBQ7pemClIJfADfDtJN4A+0SIASCXwA0AJU/PKgNg
+yEr8d8nT+68TLfJfL1b8v32G9n/jGPn/FrGq/3WCgXyg5tqpRWADQC7BSJGkugTD
+AM9KiEtcS/UJusQ+URczU5GTswEMEielMbjVjwAAAABJRU5ErkJggg==</picture>
+	</picture>
+	<picture>
+		<index>51</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xh
+BQAAAAlwSFlzAAAOwAAADsABataJCQAAAB90RVh0U29mdHdhcmUAUGFpbnQuTkVU
+ID8/Pz8/PyAzLjUuNefKA2EAAAGPSURBVDhPrZPLSwJRFMb7k3rRH1GuWrRrHbQO
+bNIcpUarTdSqx6akkoxCQkMqyBatIoJIIyeK6F2Olho6z69zb1hN2gNq4Mc55zvn
+fPfCcOvq/uPTk2Ne3MbAOFmXcL0zCuQPeV1LY/O2c3c3p0Eix9fRAHnNAyt/8qUW
+X/DBbrAxAXmp69fE50W7wfxqDHJqH/LRD9BMNnMLaWSg2sAsXsEsXMFisQLVFf2t
+rxZqGxjZNIxcGk/9XVAcLZznmRGY2WOU4rO8NqlvlZTvDbgRLTH4EsWK6fcGd3sw
+PqBTrjiawSLTK7lVvKl9A/0yAY3QL7fxJHRCaWtCccpN9avGau0iATN/XsMgEoF2
+GiOi7/EsSkuN0M6YHuO5SrmZkyENeT/9hZVlqMdhqGk7mdYG0pegUe81D8NQjiAF
+PHaDueVFqKkgyqlZPPa003A9Jz/ejXIy+KaxnvFwgEG/y24wFQrx6+sXWzDu93+k
+TxTsBpOhkFcY8MI/LBJu+AMuQqhC8jvRKzohiIL9Mf3lRb8A8+FJK+/UducAAAAA
+SUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>52</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xh
+BQAAAAlwSFlzAAAOwAAADsABataJCQAAAB90RVh0U29mdHdhcmUAUGFpbnQuTkVU
+ID8/Pz8/PyAzLjUuNefKA2EAAABFSURBVDhPY2AYPiA7O/s/CMN8BOMj0Q14fYvL
+ADQDcRtCyACQQVA12A0hwQC4N1G8NKQMIC8M8AYgUgiTnw6GT5Yg2ScAOrt7BzPC
+tocAAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>53</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADKSURBVDhPYxj6
+gBFKowCDPKFaINUE4WEFdRcmvWuGsjEB0ID/93+d+//u/30MDBIHyUOVMjBBaQzw
+7t9Thk8MzzAwSBwZ4DTgyZ/rQOXnMTBIHBlgNQDoP6xhgw3ADTApEvuvEyv6X91P
+5D8IQIUJArgBf/788VGSVmVg5SfacjBggdIMTpq+W/Zd3+zDIcqyBcQ3YHdl4GUQ
+AMshA0m290CyA8IBArgBD9/eAfl9K5DJyNjHCI5KiAxWUAelEcAgU4xofw8rwMAA
+AO6QX4mHGOGtAAAAAElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>54</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF1SURBVDhPpZI9
+SMNAFMf/LUU6iLoEdHHxY3JzcJWubh1EV227FATH0s5dVeLiInQrCuksKTqq4OTc
+oXWpJUMbmkAague9u0s/0zr4C+/+9+497r27S8w0zTcAB9wi6ff7QtPpdExMpuEb
+sChs2x6aYRhMpc+QUAocHQK7W0CrJdwVGgYBBsbTsItIqIPxaqEx1ubW5eaxSqUy
+v4Nw92q1Ck3TYFmW8ENyuWN4nqe8COh8slpYscuCIOA6Qtf1uR3EpSRRq72iXv/g
++gLXdWF+drBXuhXR6TtIFXW2f3GTEQ6djzGHm6zO2tQJowShRLlcnumA4qRxcT4X
+6PV6wr75R9jOj1Ain8+r2YgwHvd9n4uLNT6SrSdplHQcB6elR7w3m3Ihd5c5KT4w
+UrkAxOiCps9YKBSwc36NzY0Enq0ltToipfn4agdo3F9G/53E9tmVqDRRccwX8UX8
+lRDG1TPOsro8NyQI44uysvTeaj6BWs9K718Av455EPmG5DlLAAAAAElFTkSuQmCC
+</picture>
+	</picture>
+	<picture>
+		<index>55</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xh
+BQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0
+IDQuMC4xNzNun2MAAADuSURBVDhPY/j//z9FGIXjbmHBEaqlZQaikcXxYTjDxdqa
+N0lW9k4BH9/vZBmZ2/4GBjzICnFhBgcHh/8gDDTgfz4///8SLq7/QEP+u1pZgcUJ
+YbhJIBeAbC7k5f2dIi19O1BPjxvZJlwYhROvoMAWpapqCqKRxfFhrIKkYKyCMKyS
+1N+gXT0ZyMSUcwKKg+QxJJCxcd5EIIVdDoRB8lglYBhoA5DCLgfCIHmsEjAMUgDE
+NhHVq8DOhYo1QPk2IHmsGmEYpADkV4a0mRgYGgbYNcIwSAHIJopcgC6GjAkaQI1Y
+aAD5FV0chCFh0N8AAGaTn8a00cVlAAAAAElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>56</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xh
+BQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0
+IDQuMC4xNzNun2MAAADzSURBVDhPY/j//z8KdnBwAFKoYvgwCidMQ4Pbxcrqf5CO
+DheyOD4MZ8QrKIilSkndz+fn/58oJ3fTzdKSKEPATnawt//vYW7+v4CP738JF9f/
+XCGh/y7W1v/BcgQw3KQYJSWxFCmpu3kCAiAXXHe3sOBEtgkXRuFEqqmxgmz2NzBg
+QRbHhzEEQM5CF8OHMQSQDVBJ6m/Qrp4M5yNjJ6A4SB5DAtkA47yJcDY2DJLHEERz
+AZyNDYPkMQTRDQBim4jqVWDnQsUaoHwbkDxBA0B+ZUibiYGhYUDYAJBNFLkAxsaG
+CRpAjVhoAPkVxkfGkDDobwAAFxmTw3vLbs8AAAAASUVORK5CYII=</picture>
+	</picture>
+	<picture>
+		<index>57</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xh
+BQAAAAlwSFlzAAAOwAAADsABataJCQAAAB90RVh0U29mdHdhcmUAUGFpbnQuTkVU
+ID8/Pz8/PyAzLjUuNefKA2EAAAH5SURBVDhPrZPfT1JhGMf507qQOaVaxpRumZCQ
+5fLGiyhlaxEGGmvFKjEhRTaXsxyWDLDjRpScZjWYVMOSOQMn1Fi1fuqn8542Fp20
+G8/2XJy9z/t93u/387463X5+r5LnnCtxLxH3UZYiNrX+/Bfre857nexnpyaxGLGy
+szHI90IfP8p3WLjVzsflU2TCnewpICa+L4RITR2nmhuglD5JadlDMtBOMW5hfvjg
+/wVyD1xMnDcg3TCRvGZEnnYQPKsnpmzeVUB4E9MzSv0s3UYKdfA130NN7uZTYZSY
+30hZsjHnNfDPHIR3Nq+SuNJGJetBCnawsWjlzXwnxUcuVeDlXTPjA81MDZm0NlTv
+eaXRd5gva2MkAkaqj+28SypZZEeI+o7wNmohcEavliZIIfBkskv1Kc8OEuzXM+Nu
+UZsTkxfw9R7A39fEyG4Cwvt20UEudZlxbxu5xAlycRvZmJUX9y08f6iIXjyEPGNW
+c9CcIB0yU33azYe8l9TEMSoZO5UlO5tpG6VUF+Vnl+oo77lbtQLSdRPbhd4GAp+z
+Perl+ZvEtKtFKyDS31Imbq3crBNYX7CyplweQWJd9jeQ0FgQ6YuJ30pzdQKVlF1l
+L0jUVmcbSGgFhgxOQWA1HWbM0UTU04o4atjZzKhDjxwPMXz6N4mY0rufD1j3C7vu
+vw0TxEc9AAAAAElFTkSuQmCC</picture>
+	</picture>
+	<picture>
+		<index>58</index>
+		<picture tx="351" ty="15">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAiUlEQVQ4jZ2SyxHA
+IAhEVycd2Yd2oTVpF7EPakouHpAoI+HiuAOPL2C0kOvN/94KABA55A9ggjiuhlwf
+I6hfK5FaSbsIlqRTK+nTArWS5KCOk/AWdhAVLmdwUIkOMEN2W5AQ8x3wwY43mgAC
+ErnuVuKwaVXSj1pxAOCHU7cETxUsnNRLVM28dwAvbP9OIeFf7WwAAAAASUVORK5C
+YII=</picture>
+	</picture>
+	<picture>
+		<index>59</index>
+		<picture t="false">iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAbUExURQAAAFiWv1Og1FKcza3X9FCXxZDC40+SvgAA
+ABsvxl8AAAAJdFJOU///////////AFNPeBIAAAAJcEhZcwAADsMAAA7DAcdvqGQA
+AAA8SURBVChTpc8xDgAgCATBQ0Dv/y+WghiCnU6xhSQQweblQRpITpKAI5SAaqYl
+oM/pJeAKJffSvHb8/4XcW1cGXdWCDyEAAAAASUVORK5CYII=</picture>
+	</picture>
+</document>

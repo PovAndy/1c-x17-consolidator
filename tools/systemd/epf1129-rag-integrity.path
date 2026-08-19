@@ -1,0 +1,10 @@
+[Unit]
+Description=Watch EPF1129 knowledge_base.json for index synchronization
+Documentation=file://{PROJECT_ROOT}/docs/WORKSPACE_ARCHITECTURE_CURRENT.md
+
+[Path]
+PathChanged={WORKSPACE_ROOT}/knowledge_base.json
+Unit=epf1129-rag-integrity.service
+
+[Install]
+WantedBy=default.target

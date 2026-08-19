@@ -1,0 +1,32 @@
+[Unit]
+Description=EPF1129 Workspace Graph V2 event watcher
+Documentation=file://{PROJECT_ROOT}/docs/WORKSPACE_ARCHITECTURE_CURRENT.md
+After=default.target
+
+[Service]
+Type=simple
+WorkingDirectory={PROJECT_ROOT}
+ExecStart={PROJECT_ROOT}/.venv-gemini-bridge/bin/python {PROJECT_ROOT}/scripts/workspace_graph_v2_manager.py watch --debounce 1.2
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=15
+KillSignal=SIGTERM
+Environment=PYTHONUNBUFFERED=1
+UMask=0077
+Nice=10
+IOSchedulingClass=best-effort
+IOSchedulingPriority=7
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=full
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+LockPersonality=true
+RestrictAddressFamilies=AF_UNIX
+MemoryMax=1G
+CPUQuota=80%
+
+[Install]
+WantedBy=default.target

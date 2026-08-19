@@ -1,0 +1,24 @@
+# Coder Packet
+
+- `task_id`: EPF-###
+- `role`: engineer
+- `objective`: one narrow coding change
+- `allowed_edit_paths`:
+  - `/abs/path/file`
+- `read_context_paths`:
+  - `/abs/path/file`
+- `out_of_scope`:
+  - no unrelated refactor
+  - no format-only edits
+- `acceptance_criteria`:
+  - criterion 1
+  - criterion 2
+- `known_risks`:
+  - risk 1
+- `prevention_checks`:
+  - `scripts/preflight.sh`
+  - reread modified BSL query/string lines
+- `handoff_artifacts`:
+  - changed files
+  - short delta summary
+  - evidence paths

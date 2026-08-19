@@ -1,0 +1,14 @@
+param([string]$Alias)
+$ErrorActionPreference = 'Stop'
+. '\\wsl.localhost\Ubuntu\{PROJECT_ROOT}\scripts\1c-com-common.win.ps1'
+function Decode-Utf8Base64 { param([string]$Value) [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($Value)) }
+$qtxt = Decode-Utf8Base64 '0JLQq9CR0KDQkNCi0KwKICAgIENPVU5UKCopINCa0JDQmiBUb3RhbERvY3MsCiAgICBTVU0o0JLQq9CR0J7QoCDQmtCe0JPQlNCQINCf0KDQldCU0KHQotCQ0JLQm9CV0J3QmNCVKNCiLtCS0LjQtNCe0LHRitC10LrRgtCw0KPRh9C10YLQsCkgPSAi0JbQuNC70YvQtSDQv9C+0LzQtdGJ0LXQvdC40Y8iINCi0J7Qk9CU0JAgMSDQmNCd0JDQp9CVIDAg0JrQntCd0JXQpikg0JrQkNCaIE5hbWVkUmVzaWRlbnRpYWwsCiAgICBTVU0o0JLQq9CR0J7QoCDQmtCe0JPQlNCQINCiLtCS0LjQtNCe0LHRitC10LrRgtCw0KPRh9C10YLQsCA9INCX0J3QkNCn0JXQndCY0JUo0KHQv9GA0LDQstC+0YfQvdC40Lou0LjQutCS0LjQtNGL0J7QsdGK0LXQutGC0L7QstCj0YfQtdGC0LAu0JbQuNC70YvQtdCf0L7QvNC10YnQtdC90LjRjykg0KLQntCT0JTQkCAxINCY0J3QkNCn0JUgMCDQmtCe0J3QldCmKSDQmtCQ0JogUHJlZFJlc2lkZW50aWFsLAogICAgU1VNKNCS0KvQkdCe0KAg0JrQntCT0JTQkCDQn9Cg0JXQlNCh0KLQkNCS0JvQldCd0JjQlSjQoi7QktC40LTQntCx0YrQtdC60YLQsNCj0YfQtdGC0LApID0gItCW0LjQu9GL0LUg0L/QvtC80LXRidC10L3QuNGPIiDQmCDQndCVINCiLtCS0LjQtNCe0LHRitC10LrRgtCw0KPRh9C10YLQsCA9INCX0J3QkNCn0JXQndCY0JUo0KHQv9GA0LDQstC+0YfQvdC40Lou0LjQutCS0LjQtNGL0J7QsdGK0LXQutGC0L7QstCj0YfQtdGC0LAu0JbQuNC70YvQtdCf0L7QvNC10YnQtdC90LjRjykg0KLQntCT0JTQkCAxINCY0J3QkNCn0JUgMCDQmtCe0J3QldCmKSDQmtCQ0JogV3JvbmdSZXNpZGVudGlhbArQmNCXCiAgICDQlNC+0LrRg9C80LXQvdGCLtC40LrQntGC0LrRgNGL0YLQuNC10JvQuNGG0LXQstC+0LPQvtCh0YfQtdGC0LAg0JrQkNCaINCiCg=='
+$ctx = Connect-1CFileBase -Alias $Alias
+try {
+  $q = New-1CQuery -Connection $ctx.Connection -Text $qtxt
+  $t = $q.Execute().Unload()
+  $r = $t.Get(0)
+  Write-Output ("Alias={0}; TotalDocs={1}; NamedResidential={2}; PredResidential={3}; WrongResidential={4}" -f $Alias, $r.Get(0), $r.Get(1), $r.Get(2), $r.Get(3))
+} catch {
+  Write-Output ("Alias={0}; ERROR={1}" -f $Alias,$_.Exception.Message)
+}
