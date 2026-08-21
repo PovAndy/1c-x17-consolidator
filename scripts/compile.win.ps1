@@ -26,8 +26,6 @@ if (-not (Test-Path -LiteralPath $V8Bin)) {
   throw "1C binary not found for required platform $PlatformVersion`: $V8Bin"
 }
 $IbPath = 'T:\Base1s\Formula_GKHBuh7-1'
-$DbUserB64 = 'EAQ0BDwEOAQ9BDgEQQRCBEAEMARCBD4EQAQ='
-$DbPwdB64 = 'MQA1ADkAMwA1ADcAGQQ5BA=='
 
 $WslRoot = "\\wsl$\$WslDistro\home\papaandrey\1S\epf1129"
 $WinRoot = 'T:\1S\wsl_exchange\work_epf_112_9'
@@ -80,15 +78,10 @@ $VersionedFileName = if ([string]::IsNullOrWhiteSpace($Version)) {
 }
 $OutEpfVersioned = Join-Path $WinBuild $VersionedFileName
 
-$DbUser = if ([string]::IsNullOrWhiteSpace($env:EPF_DB_USER)) {
-  [Text.Encoding]::Unicode.GetString([Convert]::FromBase64String($DbUserB64))
-} else {
-  $env:EPF_DB_USER
-}
-$DbPwd = if ([string]::IsNullOrWhiteSpace($env:EPF_DB_PWD)) {
-  [Text.Encoding]::Unicode.GetString([Convert]::FromBase64String($DbPwdB64))
-} else {
-  $env:EPF_DB_PWD
+$DbUser = $env:EPF_DB_USER
+$DbPwd = $env:EPF_DB_PWD
+if ([string]::IsNullOrWhiteSpace($DbUser) -or [string]::IsNullOrWhiteSpace($DbPwd)) {
+  throw 'EPF_DB_USER and EPF_DB_PWD must be set in the local environment; embedded credentials are forbidden.'
 }
 
 $DesignerArgs = @(
