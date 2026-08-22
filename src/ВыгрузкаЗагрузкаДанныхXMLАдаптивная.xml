@@ -850,6 +850,7 @@
 			<Template>Описание</Template>
 			<Template>Макет</Template>
 			<Template>КлючиАналитикиКартинка</Template>
+			<Template>ПланАудитаREADYНумерации12305</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>

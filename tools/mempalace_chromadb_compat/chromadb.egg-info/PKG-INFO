@@ -1,5 +1,0 @@
-Metadata-Version: 2.4
-Name: chromadb
-Version: 0.0.0.dev0
-Summary: Local ChromaDB compatibility backend for MemPalace pilot in epf1129
-Requires-Python: >=3.9

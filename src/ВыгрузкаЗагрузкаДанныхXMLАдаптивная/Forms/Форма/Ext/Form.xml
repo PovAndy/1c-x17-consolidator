@@ -3,7 +3,7 @@
   <Title>
     <v8:item>
       <v8:lang>ru</v8:lang>
-			<v8:content>Выгрузка и загрузка данных XML Адаптивная (Быстрая+Пакетная обработка v25-123.03)</v8:content>
+      <v8:content>Выгрузка и загрузка данных XML Адаптивная (Быстрая+Пакетная обработка v25-123.10)</v8:content>
     </v8:item>
   </Title>
   <AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
@@ -2320,7 +2320,15 @@
 	                                  <CommandName>Form.Command.ИсправитьПеренумерациюДокументов</CommandName>
 	                                  <ExtendedTooltip name="ИсправитьПеренумерациюДокументовТестыРасширеннаяПодсказка" id="5699"/>
 	                                </Button>
-	                                <UsualGroup name="ГруппаЭтап18ФинальныйОстаток" id="5702">
+																<Button name="ИсправитьREADYНумерациюДокументовСвежейКопииТесты" id="5756">
+																	<CommandName>Form.Command.ИсправитьREADYНумерациюДокументовСвежейКопии</CommandName>
+																	<ExtendedTooltip name="ИсправитьREADYНумерациюДокументовСвежейКопииТестыРасширеннаяПодсказка" id="5757"/>
+																</Button>
+																<Button name="АудитREADYНумерацииДокументовСвежейКопииТесты" id="5758">
+																	<CommandName>Form.Command.АудитREADYНумерацииДокументовСвежейКопии</CommandName>
+																	<ExtendedTooltip name="АудитREADYНумерацииДокументовСвежейКопииТестыРасширеннаяПодсказка" id="5759"/>
+																</Button>
+																<UsualGroup name="ГруппаЭтап18ФинальныйОстаток" id="5702">
 	                                  <Title>
 	                                    <v8:item>
 	                                      <v8:lang>ru</v8:lang>
@@ -2477,14 +2485,14 @@
 														</Button>
 													</ChildItems>
 												</UsualGroup>
-												<UsualGroup name="ГруппаЭтап25СвежаяКопия" id="5746">
+										<UsualGroup name="ГруппаЭтап25СвежаяКопия" id="5746">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>[25] Свежая копия: массовые конвейеры</v8:content>
 														</v8:item>
 													</Title>
-													<Group>AlwaysHorizontal</Group>
+											<Group>Horizontal</Group>
 													<Representation>StrongSeparation</Representation>
 													<ExtendedTooltip name="ГруппаЭтап25СвежаяКопияРасширеннаяПодсказка" id="5747"/>
 													<ChildItems>
@@ -2519,7 +2527,7 @@
 															</Title>
 															<ExtendedTooltip name="ЗавершитьОстаточныеСсылкиСвежейКопииТестыРасширеннаяПодсказка" id="5753"/>
 														</Button>
-														<Button name="ИсправитьREADYКодыСвежейКопииТесты" id="5754">
+												<Button name="ИсправитьREADYКодыСвежейКопииТесты" id="5754">
 															<CommandName>Form.Command.ИсправитьREADYКодыСвежейКопии</CommandName>
 															<Title>
 																<v8:item>
@@ -2527,8 +2535,18 @@
 																	<v8:content>[25.3] Исправить READY-коды</v8:content>
 																</v8:item>
 															</Title>
-															<ExtendedTooltip name="ИсправитьREADYКодыСвежейКопииТестыРасширеннаяПодсказка" id="5755"/>
-														</Button>
+													<ExtendedTooltip name="ИсправитьREADYКодыСвежейКопииТестыРасширеннаяПодсказка" id="5755"/>
+												</Button>
+												<Button name="ЗавершитьБлокерыОбновления36_14СвежейКопииТесты" id="5760">
+													<CommandName>Form.Command.ЗавершитьБлокерыОбновления36_14СвежейКопии</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>[25.4] Исправить блокеры 36.14</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ЗавершитьБлокерыОбновления36_14СвежейКопииТестыРасширеннаяПодсказка" id="5761"/>
+												</Button>
 													</ChildItems>
 												</UsualGroup>
 												<InputField name="Адапт_СписокЛСДляПерерасчета" id="5514">
@@ -5992,7 +6010,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Только чтение в MergedBase: полный реестр кодов, источников и групп справочника РегламентированныеОтчеты перед обновлением 36.14; запись не выполняется.</v8:content>
+					<v8:content>Только чтение в ReadOnlyContourC/FreshCopyTarget: полный реестр кодов, источников и групп справочника РегламентированныеОтчеты перед обновлением 36.14; запись не выполняется.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПредконтрольОбновления36_14</Action>
@@ -6025,7 +6043,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Только чтение в MergedBase: полный реестр дублей ПричиныУвольненияПФР, каноны по предопределенным данным или UUID-отпечатку x1_01, входящие ссылки и стабильный MD5 плана.</v8:content>
+					<v8:content>Только чтение в ReadOnlyContourC/FreshCopyTarget: полный реестр дублей ПричиныУвольненияПФР, каноны по предопределенным данным или UUID-отпечатку x1_01, входящие ссылки и стабильный MD5 плана.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>PreviewДублейПричинУвольненияПФР36_14</Action>
@@ -6049,7 +6067,7 @@
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Только чтение в MergedBase: полный реестр активных дублей ОснованияУвольнения по естественному ключу Наименование, доказанные каноны, семантические расхождения, входящие ссылки и MD5.</v8:content>
+					<v8:content>Только чтение в ReadOnlyContourC/FreshCopyTarget: полный реестр активных дублей ОснованияУвольнения по естественному ключу Наименование, доказанные каноны, семантические расхождения, входящие ссылки и MD5.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>PreviewДублейОснованийУвольнения36_14</Action>
@@ -6098,6 +6116,33 @@
 				</v8:item>
 			</Title>
 			<Action>ИсправитьREADYКодыСвежейКопии</Action>
+		</Command>
+		<Command name="ИсправитьREADYНумерациюДокументовСвежейКопии" id="5715">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>[18.8] Исправить READY FreshCopyTarget (~00:25:00–00:45:00)</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ИсправитьREADYНумерациюДокументовСвежейКопии</Action>
+		</Command>
+		<Command name="АудитREADYНумерацииДокументовСвежейКопии" id="5716">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>[18.12] Аудит synthetic fixture номеров (~00:01:00–00:04:00)</v8:content>
+				</v8:item>
+			</Title>
+			<Action>АудитREADYНумерацииДокументовСвежейКопии</Action>
+		</Command>
+		<Command name="ЗавершитьБлокерыОбновления36_14СвежейКопии" id="5717">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>[25.4] Исправить блокеры обновления 36.14 (~00:01:00–00:05:00)</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ЗавершитьБлокерыОбновления36_14СвежейКопии</Action>
 		</Command>
 	</Commands>
 </Form>

@@ -1,38 +1,34 @@
 # 1c-x17-consolidator
 
-`1c-x17-consolidator` contains the XML sources of the external 1C:Enterprise
-data processor **ВыгрузкаЗагрузкаДанныхXMLАдаптивная** and the supporting
-read-only diagnostics for the consolidated x17 database.
+Public source repository for the 1C external processor `ВыгрузкаЗагрузкаДанныхXMLАдаптивная` and the reviewed checks that fix errors in the 1C x17 project.
 
-## Scope
+Russian reference: [README.md](README.md).
 
-- Safe consolidation, integrity diagnostics, and recovery preparation for a
-  1C 8.3 GKH/utility-management database.
-- XML/BSL source of the external processor under `src/`.
-- Supporting scripts, read-only SQL diagnostics, recovery notes, and operating
-  runbooks under `scripts/`, `sql/readonly/`, and `docs/`.
+## Version and publication boundary
 
-The detailed Russian document remains the canonical project reference:
-[README.md](README.md).
+- Processor source version: **v25-123.10**.
+- GitHub public release: **v25-123.10-public**.
+- The release contains only processor source, a safe synthetic fixture, scoped static tests, read-only contracts, and bilingual documentation.
+- Production registries, 1C databases, archives, logs, dumps, generated EPF/ERF files, keys, tokens, passwords, confidential data, and full working-environment parameters are excluded.
+- The complete working environment is maintained separately in [1c-nexus-infra](https://github.com/PovAndy/1c-nexus-infra); this repository does not replace it.
 
-## Repository safety boundary
+## Published scope
 
-The repository contains reviewed source and reproducible documentation. It must
-not contain passwords, tokens, local `.env` files, virtual environments, local
-index databases, generated runtime logs, or unreviewed build output.
+- `[18.8]` — guarded batch READY-numbering repair with protection for personal-account-opening document numbers and post-control.
+- `[18.12]` — ReadOnly READY-numbering audit covering structure, UUID, dates, numbers, and MD5.
+- `[25.4]` — sequential 36.14 update-blocker pipeline with stop-on-error and separate stage transactions.
+- `src/` — XML/BSL source of the external processor and its forms.
+- `scripts/` — selected static tests and read-only contracts for these fixes only.
+- `src/.../Templates/ПланАудитаREADYНумерации12305/Ext/Template.txt` — three fully synthetic rows; it is not a production export.
 
-Every version is release-ready only after scoped review, structural EPF/form
-validation, applicable BSL validation, an actual Designer build, and a
-post-push comparison of the remote commit and source version. A local dirty
-worktree is not a released version.
+The public fixture is intentionally not a production registry. `[18.8]` and `[18.12]` fail closed when the fixture or contour does not match; this repository is not authorization to write to a live database.
 
-## Current remote snapshot
+## Publication checks
 
-At the GitHub audit on 2026-08-21, `main` was
-`29cc956e1ac9f38c3c4b4dbf28edd32625caa187`; its source declared
-`v25-123.03`. This is a snapshot fact, not a claim about later local work.
+Each version is checked with `epf-validate`, `form-info`, `form-validate`, scoped static tests, `py_compile`, `git diff --check`, secret scanning, and a post-push SHA/tag/version audit. No Designer build or live execution is claimed without separate evidence.
 
-## Documentation
+See [v25.10 release notes](docs/V25-123.10_RELEASE_NOTES_2026-08-22.md) and the [publication scope](docs/GITHUB_PUBLISH_SCOPE_2026-08-22.md).
 
-- [Russian project reference](README.md)
-- [Recovery/update checkpoint](docs/X17_RECOVERY_UPDATE_36_14_CHECKPOINT_2026-08-14.md)
+## Publication security
+
+Every update is reviewed against an explicit path allowlist. Archives, 1C databases and dumps, generated artifacts, raw XML/CSV exports, logs, screenshots, personal or production data, secrets and credential-bearing command lines, real host/database names, ports/endpoints, absolute paths, `.env` files, virtual environments, local indexes/RAG, and full working-environment configuration are forbidden.

@@ -1,6 +1,0 @@
-pyproject.toml
-chromadb/__init__.py
-chromadb.egg-info/PKG-INFO
-chromadb.egg-info/SOURCES.txt
-chromadb.egg-info/dependency_links.txt
-chromadb.egg-info/top_level.txt

@@ -75,7 +75,7 @@ def main() -> None:
 
     required = (
         'ОжидаетсяГрупп = 19',
-        'MD5Классификации23_3 = "1CFF9261DAE11203F60F658785679850"',
+        'MD5Классификации23_3 = "993D3C777B41DFFDE5DEA49764D50A99"',
         "ПредопределенноеЗначение(",
         "CANON_PLATFORM_ACTIVE",
         "STOP_CANON_MISMATCH",

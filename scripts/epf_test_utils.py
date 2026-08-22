@@ -8,7 +8,7 @@ import re
 
 VERSION_FUNCTION_RE = re.compile(
     r"Функция\s+Адапт_ВерсияОбработки\(\)\s+Экспорт\s+"
-    r"Возврат\s+\"(?P<version>v25-122\.(?P<revision>\d+))\";\s+"
+    r"Возврат\s+\"(?P<version>v25-(?P<cycle>\d+)\.(?P<revision>\d+))\";\s+"
     r"КонецФункции",
     re.DOTALL,
 )
@@ -24,10 +24,12 @@ def current_processing_version(object_text: str, minimum_revision: int) -> str:
             f"found {len(matches)}"
         )
     match = matches[0]
+    cycle = int(match.group("cycle"))
     revision = int(match.group("revision"))
-    if revision < minimum_revision:
+    if (cycle, revision) < (122, minimum_revision):
         raise AssertionError(
-            f"processing revision {revision} is older than required {minimum_revision}"
+            f"processing version {cycle}.{revision} is older than required "
+            f"122.{minimum_revision}"
         )
     return match.group("version")
 

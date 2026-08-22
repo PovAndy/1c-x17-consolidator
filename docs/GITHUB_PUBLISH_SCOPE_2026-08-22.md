@@ -1,129 +1,59 @@
 # GitHub publish scope / Контур публикации GitHub
 
 **Repository / Репозиторий:** `PovAndy/1c-x17-consolidator`
-
 **Audit date / Дата аудита:** 2026-08-22
+**Source version / Версия исходника:** `v25-123.10`
+**Public tag / Публичный тег:** `v25-123.10-public`
 
-**Local source / Локальный исходник:** `v25-123.10`
-**Remote baseline / Удалённый baseline:** `339c289e2c83001ae4b0b225023e073089c1344b`, source `v25-123.03`
+## Purpose / Назначение
 
-## Repository purpose / Назначение репозитория
+The repository contains only source and reviewed tests/read-only diagnostics that fix or prevent errors in the 1C x17 processor. Full infrastructure belongs to `1c-nexus-infra` and is not copied here.
 
-`1c-x17-consolidator` is limited to information about the external processor
-and the reviewed tests/read-only diagnostics that fix or prevent errors in the
-1C x17 project. Full workspace infrastructure belongs to the separate
-`1c-nexus-infra` repository and is not copied here.
-
-Репозиторий `1c-x17-consolidator` ограничен информацией о внешней обработке и
-проверенных тестах/read-only-диагностике, которые исправляют или предупреждают
-ошибки проекта 1С x17. Полная рабочая среда относится к отдельному репозиторию
-`1c-nexus-infra` и сюда не переносится.
+Репозиторий содержит только исходники и проверенные тесты/read-only-диагностику, которые исправляют или предупреждают ошибки обработки 1С x17. Полная рабочая среда относится к `1c-nexus-infra` и сюда не переносится.
 
 ## Allowlist / Разрешённый контур
 
-### Source and functions / Исходники и функции
+- `README.md`, `README.en.md` and the two bilingual documents in `docs/`.
+- `src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная.xml` and the EPF XML/BSL source needed for the processor, form, `[18.8]`, `[18.12]`, and `[25.4]` contracts.
+- `src/.../Templates/ПланАудитаREADYНумерации12305.xml` plus its three-row synthetic `Template.txt` fixture.
+- Selected static tests and read-only contracts under `scripts/`; no credentials or environment configuration.
 
-The following code is source logic and may be published after the data-bound
-template is redacted or replaced by a non-production fixture:
+Разрешены README и двуязычная документация, XML/BSL-исходники обработки, форма, контракты `[18.8]`, `[18.12]`, `[25.4]`, а также синтетический fixture из трёх строк и выбранные статические тесты. Production registry, реальные выгрузки и рабочая среда не входят.
 
-Следующая логика является исходным кодом и может публиковаться после удаления
-производственных данных из макета или замены его безопасным fixture:
+## Synthetic fixture gate / Ворота synthetic fixture
 
-- `src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная.xml` — metadata registration.
-- `src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Ext/ObjectModule.bsl` —
-  `Адапт_ВерсияОбработки()` (`v25-123.10`), guarded `[18.8]` READY repair,
-  ReadOnly `[18.12]` audit, and `[25.4]` sequential update-blocker pipeline.
-- `src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма/Ext/Form.xml` —
-  versioned title, commands and buttons for `[18.8]`, `[18.12]`, and `[25.4]`.
-- `src/ВыгрузкаЗагрузкаДанныхXMLАдаптивная/Forms/Форма/Ext/Form/Module.bsl` —
-  client/server wrappers and long-operation routes for those commands.
+The public `Template.txt` contains exactly three synthetic rows with non-production UUIDs, dates, and numbers. It is a structural test fixture, not an audit result and not a production registry. The source must fail closed on any fixture/checksum/contour mismatch.
 
-The publishable function contracts are:
-
-- `Адапт_ИсправитьREADYНумерациюДокументовСвежейКопии()` — write route is
-  restricted to the guarded `postgres3` fresh-copy contour, uses package
-  transactions and post-control, and preserves opening-personal-account
-  document numbers.
-- `Адапт_АудитREADYНумерацииДокументовСвежейКопии()` and
-  `Адапт_ПроверитьПланАудитаREADYНумерации12305()` — ReadOnly audit and
-  fail-closed registry checks; no object write, delete, direct SQL, or link
-  replacement.
-- `Адапт_ЗавершитьБлокерыОбновления36_14СвежейКопии()` — sequential `[24.3]`,
-  `[24.5]`, `[24.7]`, then ReadOnly `[24.1]`; stop on first error, with child
-  transaction boundaries and no outer transaction.
-
-### Tests and read-only tooling / Тесты и read-only-инструменты
-
-These files contain static contracts or read-only helpers directly tied to
-fixing x17 processing errors and are candidates for the scoped repository once
-their paths are kept placeholder-safe:
-
-```text
-scripts/epf_test_utils.py
-scripts/test_catalog_code_active_predefined_preview.py
-scripts/test_catalog_code_final_dedup.py
-scripts/test_document_numbering_readonly.py
-scripts/test_fresh_copy_catalog_ready_fix.py
-scripts/test_fresh_copy_update_blockers_fix.py
-scripts/test_fresh_copy_document_numbering_ready_fix.py
-scripts/test_regreports_consolidation_preview.py
-scripts/test_tis_residual_diagnostic.py
-scripts/run-epf-com-direct.win.ps1
-scripts/export-tis-residual-donors-com.win.ps1
-```
-
-`test_document_numbering_ready_audit.py` remains local-only for now because its
-assertions are tied to the production-derived registry; it may enter the
-public set only after it is rewritten against a synthetic fixture.
-
-### Documentation / Документация
-
-Publishable documentation consists of reviewed bilingual Markdown such as:
-
-- `README.md` and `README.en.md`;
-- `docs/V25-123.10_RELEASE_NOTES_2026-08-22.md`;
-- this scope inventory.
-
-Only processing-specific material is allowed: BSL/XML source, sanitized tests,
-read-only diagnostics, and bilingual documentation about those fixes. Synthetic
-fixtures are allowed; production-derived fixtures are not.
+Публичный `Template.txt` содержит ровно три синтетические строки с непроизводственными UUID, датами и номерами. Это структурный fixture, а не результат аудита и не рабочий реестр. При несовпадении fixture, контрольной суммы или контура исходник обязан остановиться без записи.
 
 ## Denylist / Запрещённый контур
 
-The following must not be copied to the public repository:
+- 1C databases and dumps (`*.1CD`, `*.dt`, `*.cf`, `*.cfe`), backups, archives, and generated EPF/ERF artifacts;
+- personal, confidential, or production-derived data: addresses, account numbers, raw UUID lists, document registries, screenshots, raw XML/CSV exports, and logs;
+- passwords, API keys, access tokens, private keys, certificates, cookies, connection strings, `.env` values, and credential-bearing command lines;
+- full working-environment parameters: real server/database names, hostnames, ports, bridge/proxy/MCP endpoints, absolute paths, provider configuration, RAG/vector indexes, `.code-index`, virtual environments, and runtime logs;
+- claims of live execution or production success that cannot be reproduced from the public source.
 
-- `src/.../Templates/ПланАудитаREADYНумерации12305/Ext/Template.txt` in its
-  current form: it contains 14,672 production-derived UUID/date/number rows;
-- any 1C database or database dump (`*.1CD`, `*.dt`, `*.cf`, `*.cfe`, database
-  backups), archive (`*.zip`, `*.7z`, `*.rar`, `*.tar*`) or generated EPF/ERF
-  build artifact;
-- confidential or production-derived data: personal data, addresses, account
-  numbers, document registries, UUID lists, raw exports, screenshots, or
-  unredacted audit fixtures;
-- passwords, API keys, access tokens, private keys, certificates, cookies,
-  connection strings, `.env` values, and credential-bearing command lines;
-- full working-environment parameters: server/base names, hostnames, ports,
-  bridge/proxy endpoints, absolute paths, MCP/provider configuration, local
-  RAG/vector indexes, `.code-index`, virtual environments, and runtime logs;
-- archives, logs, database dumps, XML/CSV exports, context/config dumps,
-  temporary files, and the local `compile-with-protected-env.win.ps1` wrapper
-  (it exposes a `-SkipAudit` path and belongs to the private environment);
-- any live result or claim that cannot be reproduced from public source.
+- базы и дампы 1С, резервные копии, архивы и generated EPF/ERF;
+- персональные, конфиденциальные и производственные данные, адреса, номера ЛС, сырые UUID-списки, реестры документов, скриншоты, XML/CSV-выгрузки и логи;
+- пароли, ключи, токены, сертификаты, cookies, connection strings, значения `.env` и команды с учётными данными;
+- полные параметры рабочей среды: реальные имена серверов и баз, host/port, bridge/proxy/MCP endpoint-ы, абсолютные пути, конфигурация провайдеров, RAG/vector indexes, `.code-index`, виртуальные окружения и runtime-логи;
+- неподтверждённые claims о live execution или production-успехе.
 
-## Publication gate / Ворота сохранения
+## Bilingual documentation gate / Двуязычные документы
 
-1. Replace the data-bearing READY registry with a synthetic/non-production
-   fixture or keep the `[18.8]/[18.12]` feature outside the public source set.
-2. Verify that every staged path is processing-specific and contains no
-   archive, confidential data, key, database, environment parameter, or full
-   workspace configuration.
-3. Re-run `epf-validate`, `form-info`, `form-validate`, the scoped static tests,
-   `py_compile`, and the bounded Critic QA review.
-4. Stage named paths only, scan the staged snapshot for secrets and private
-   paths, then compare the post-push remote SHA and version.
+Every public version must update both `README.md` and `README.en.md`. Release notes and scope/security documents must contain paired Russian and English sections. A one-language README or release note is a publication failure.
 
-Until step 1 is complete, the public repository must not be described as a
-complete `v25-123.10` source release.
+Каждая публичная версия обязана обновлять `README.md` и `README.en.md`. Release notes и документы контура/безопасности должны содержать парные разделы на русском и английском языках. Одноязычный README или release note считается ошибкой публикации.
 
-Пока шаг 1 не выполнен, публичный репозиторий нельзя называть полным
-исходным релизом `v25-123.10`.
+## Verification gate / Ворота проверки
+
+1. Stage named paths only; inspect the staged snapshot.
+2. Run EPF/form validators, scoped static tests, `py_compile`, `git diff --check`, and bounded Critic QA.
+3. Scan staged content for secrets, production paths/data, databases, archives, logs, and full environment parameters.
+4. Push `main` with the annotated public tag and compare remote SHA, tag target, source version, README pair, release notes, scope document, and fixture hash.
+
+1. Добавлять только именованные пути и проверять staged snapshot.
+2. Выполнить EPF/form-валидаторы, scoped static tests, `py_compile`, `git diff --check` и bounded Critic QA.
+3. Сканировать staged content на секреты, production paths/data, базы, архивы, логи и полные параметры среды.
+4. Отправить `main` с annotated public tag и сравнить remote SHA, цель тега, версию исходника, пару README, release notes, scope document и hash fixture.

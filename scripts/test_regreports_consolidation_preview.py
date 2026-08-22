@@ -38,7 +38,7 @@ def main() -> None:
     form_text = FORM_MODULE.read_text(encoding="utf-8-sig")
     form_xml = FORM_XML.read_text(encoding="utf-8-sig")
 
-    assert re.search(r'Возврат "v25-122\.(?:11[7-9]|1[2-9][0-9]|[2-9][0-9]{2,})";', object_text)
+    assert re.search(r'Возврат "v25-(?:122\.(?:11[7-9]|1[2-9][0-9]|[2-9][0-9]{2,})|(?:12[3-9]|1[3-9][0-9]|[2-9][0-9]{2,})\.\d+)";', object_text)
     name = "Адапт_СформироватьPreviewКонсолидацииРегламентированныхОтчетов36_14"
     body = function_body(object_text, name)
 
@@ -59,7 +59,7 @@ def main() -> None:
         "PASS_QUARANTINE_PLAN",
         "НайтиПоСсылкам(НеканоническиеСсылки)",
         "MD5 адресного плана",
-        "Адапт_ЭтоКонтурMergedBaseДляПодготовкиОбновления",
+        "Адапт_ЭтоКонтурПодготовкиОбновленияТолькоЧтение",
         "ПланКарантина",
         "UUIDРодителя",
     )
@@ -161,7 +161,7 @@ def main() -> None:
     )
     assert "Form.Command.ИсправитьКарантинРегламентированныхОтчетов36_14" in form_xml
     assert "[24.3] Исправить карантин отчетов" in form_xml
-    assert re.search(r"v25-122\.(?:11[7-9]|1[2-9][0-9]|[2-9][0-9]{2,})", form_xml)
+    assert re.search(r"v25-(?:122\.(?:11[7-9]|1[2-9][0-9]|[2-9][0-9]{2,})|(?:12[3-9]|1[3-9][0-9]|[2-9][0-9]{2,})\.\d+)", form_xml)
 
     print(
         "PASS: [24.2]-[24.3] wired; exact plan, one transaction, rollback and "

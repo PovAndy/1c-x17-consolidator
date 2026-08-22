@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:v8="http://v8.1c.ru/8.1/data/core" version="2.18">
+	<Template uuid="4e60bd72-c897-4b09-94d3-fd186cff5a12">
+		<Properties>
+			<Name>ПланАудитаREADYНумерации12305</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>План аудита READY нумерации 123.05</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Публичный synthetic READY-fixture [18.12] для версии v25-123.10; production registry не публикуется.</Comment>
+			<TemplateType>TextDocument</TemplateType>
+		</Properties>
+	</Template>
+</MetaDataObject>
